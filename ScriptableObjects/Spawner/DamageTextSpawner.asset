@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f4b0f8781a34490860d73395783ea71, type: 3}
+  m_Name: DamageTextSpawner
+  m_EditorClassIdentifier: 
+  poolablePrefab: {fileID: 3716271425115394635, guid: 5a4b988a724b65e4bbe583b3d9c55821, type: 3}
+  poolSize: 100
+  checkLifeSpan: 0
+  checkReleaseEvent: 0
+  spawnedObjectLifeSpan: 1
+  worldCanvas: {fileID: 11400000, guid: fcf0bb99db2a27e4e8021bec5311e22b, type: 2}
+  mainCamera: {fileID: 11400000, guid: a8ac87f5cc0d805469cd9f3f64058e63, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08143c9af2914720a7683e8f84b9ce32, type: 3}
+  m_Name: Boing
+  m_EditorClassIdentifier: 
+  charIndex: 0
+  charName: Boing
+  charIcon: {fileID: 21300000, guid: 918ed5c1d2704fd4ca5fafb57fb14ad2, type: 3}
+  charPrefab: {fileID: 823687620824325256, guid: d28d6ca2d9924f448ab12690847b6788, type: 3}
+  charDescription: DES_JUMP
+  speed: 4
+  maxHealth: 150
+  attack: 0
+  defense: 0
+  luck: 0
+  damageCalculator: {fileID: 11400000, guid: 4eb549f8f25d0de41bb225e018110fbe, type: 2}

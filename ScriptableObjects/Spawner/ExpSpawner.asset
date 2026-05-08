@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474784ac40ab4c01b6c317e776e78687, type: 3}
+  m_Name: ExpSpawner
+  m_EditorClassIdentifier: 
+  serializableDictionary:
+    keys:
+    - {fileID: 11400000, guid: d30113356374e7f4a9642a38a27ef599, type: 2}
+    - {fileID: 11400000, guid: ca5a5f57ac743284785df84ea26f6e5d, type: 2}
+    - {fileID: 11400000, guid: a397f2bd1f370ef45ae7664fc09567b0, type: 2}
+    - {fileID: 11400000, guid: 5291a08747875f9479e284705955685d, type: 2}
+    - {fileID: 11400000, guid: 470cdbe7795d414489ca4fed16da97b8, type: 2}
+    - {fileID: 11400000, guid: 7a41addc9a367bf409e2885da58b0587, type: 2}
+    - {fileID: 11400000, guid: 177bbc7b0067f6148a4bf3827371a6b3, type: 2}
+    - {fileID: 11400000, guid: c9d1860af2c16a4418bad014bd3d8ce9, type: 2}
+    - {fileID: 11400000, guid: 83208e90d8709114891e74c4bfb6b271, type: 2}
+    - {fileID: 11400000, guid: 1663631fc0c2b0d4ea99117d7252c353, type: 2}
+    values:
+    - {fileID: 8745222619990779589, guid: 005f24bf4af1d074a938c006e538e590, type: 3}
+    - {fileID: 8745222619990779589, guid: 005f24bf4af1d074a938c006e538e590, type: 3}
+    - {fileID: 8745222619990779589, guid: 41208298b78bc3249947befe8ec5fd7d, type: 3}
+    - {fileID: 1976391163777139870, guid: d7061cba047ca134db7360adae7ac488, type: 3}
+    - {fileID: 1976391163777139870, guid: d7061cba047ca134db7360adae7ac488, type: 3}
+    - {fileID: 7896856474228010205, guid: aeb158fd01125034b8ee608986ab50bc, type: 3}
+    - {fileID: 8745222619990779589, guid: 005f24bf4af1d074a938c006e538e590, type: 3}
+    - {fileID: 8745222619990779589, guid: 005f24bf4af1d074a938c006e538e590, type: 3}
+    - {fileID: 1976391163777139870, guid: d7061cba047ca134db7360adae7ac488, type: 3}
+    - {fileID: 7896856474228010205, guid: aeb158fd01125034b8ee608986ab50bc, type: 3}
+  poolSize: 100
+  checkLifeSpan: 0
+  checkReleaseEvent: 0
+  spawnedObjectLifeSpan: 30
+  disappearingEffectSpawner: {fileID: 11400000, guid: 2f6f0384321daba40b8bb2d7942936a2, type: 2}

@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <ui:VisualElement style="flex-direction: row; width: 100%; height: 100%; position: relative;">
+        <ui:VisualElement name="VisualElement" style="height: 100%; width: 25%;" />
+        <ui:VisualElement name="popup-screen-anchor" style="width: 50%; height: 100%; align-items: center; justify-content: center; display: flex;">
+            <ui:VisualElement name="container" class="label-title" style="width: 100%; height: 50%; background-color: rgb(155, 123, 146); border-left-color: rgba(255, 255, 255, 0.24); border-right-color: rgba(255, 255, 255, 0.24); border-top-color: rgba(255, 255, 255, 0.24); border-bottom-color: rgba(255, 255, 255, 0.24); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; top: auto; opacity: 1; flex-direction: row;">
+                <ui:VisualElement name="VisualElement" style="width: 50%; height: 100%; align-items: center; justify-content: center; display: flex;">
+                    <ui:VisualElement name="image-others" style="background-image: url(&quot;project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Booster.Png?fileID=21300000&amp;guid=ccf97ddb50dc9437e9899ba23fab088a&amp;type=3#Icon_Booster&quot;); width: 136px; height: 140px; display: none;" />
+                    <ui:VisualElement name="image-accessory" style="background-image: url(&quot;project://database/Assets/Local/Art/RenderTexture/AccessoryPreview.renderTexture?fileID=8400000&amp;guid=d5e585e04563cd047b2b1db99a971091&amp;type=2#AccessoryPreview&quot;); width: 512px; border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-left-color: rgb(179, 155, 172); border-right-color: rgb(179, 155, 172); border-top-color: rgb(179, 155, 172); border-bottom-color: rgb(179, 155, 172); height: 512px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; display: flex;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column; justify-content: center;">
+                    <ui:VisualElement name="VisualElement" style="height: 60%;">
+                        <ui:VisualElement style="height: 30%;" />
+                        <ui:Label tabindex="-1" text="Fruit Hat " parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-name" style="font-size: 56px; border-bottom-width: 0; border-left-color: rgb(179, 155, 172); border-right-color: rgb(179, 155, 172); border-top-color: rgb(179, 155, 172); border-bottom-color: rgb(179, 155, 172); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; border-top-width: 0; border-right-width: 0; border-left-width: 0;" />
+                        <ui:VisualElement name="VisualElement" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 5px; border-left-width: 0; border-left-color: rgb(179, 155, 172); border-right-color: rgb(179, 155, 172); border-top-color: rgb(179, 155, 172); border-bottom-color: rgb(179, 155, 172); margin-right: 30px; margin-left: 30px; height: 10px;" />
+                        <ui:Label tabindex="-1" text="The Upgrade Booster upgrades an accessory once." parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-rank" style="color: rgb(255, 255, 255); white-space: normal; padding-left: 5px; font-size: 36px;" />
+                        <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-back" class="button-skyblue" style="position: absolute; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; top: -20px; right: -20px; width: 100px; height: 100px; background-color: rgb(106, 106, 106); background-image: none;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; height: 50%; flex-direction: row; align-items: center; justify-content: center;">
+                        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-buy" class="button-skyblue" style="height: 150px; width: 300px; font-size: 56px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; flex-direction: column; align-items: center; justify-content: center;">
+                            <ui:VisualElement style="flex-grow: 1;">
+                                <ui:Label tabindex="-1" text="Buy" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-buy" style="font-size: 38px;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; justify-content: center; align-items: center;">
+                                <ui:VisualElement name="image-coin" style="background-image: url(&quot;project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Glod01_s.png?fileID=21300000&amp;guid=52066fc285ffc4bb0b9fc98f1d840149&amp;type=3#Icon_ImageIcon_Glod01_s&quot;); width: 70px; height: 70px;" />
+                                <ui:Label tabindex="-1" text="500" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-price" style="color: rgb(255, 255, 255);" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 25%;" />
+    </ui:VisualElement>
+</ui:UXML>

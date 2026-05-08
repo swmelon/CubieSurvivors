@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6aed9c09ca2e946bca0bcada537e58, type: 3}
+  m_Name: CornerBlock_Step_Bamboo
+  m_EditorClassIdentifier: 
+  prefabList:
+  - {fileID: -1392466823343438195, guid: 3411c660376ac694ea32ac25993ab5ff, type: 3}
+  - {fileID: 2492957936038427853, guid: c8cabe1f48199dc4da3e89f4b3bf3a48, type: 3}
+  - {fileID: -2599333707720788456, guid: b2026791d8afcf843ba17f43db24ca87, type: 3}
+  - {fileID: 7443787066087351995, guid: fa3bc2bc57393fd46a2258db85125454, type: 3}
+  poolSize: 0
+  preInstantiateCount: 0
+  setPoolSeparately: 1
+  poolSizes: 3c0000000a0000001400000064000000
+  preInstantiateCounts: 0c000000020000000400000014000000

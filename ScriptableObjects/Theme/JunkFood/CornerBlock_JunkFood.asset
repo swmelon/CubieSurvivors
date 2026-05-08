@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6aed9c09ca2e946bca0bcada537e58, type: 3}
+  m_Name: CornerBlock_JunkFood
+  m_EditorClassIdentifier: 
+  prefabList:
+  - {fileID: -1392466823343438195, guid: 6945446f90aa9204d95787d5efc053f4, type: 3}
+  - {fileID: 2492957936038427853, guid: cef6ba90a9cbb384c90ff50e3b015933, type: 3}
+  - {fileID: -2599333707720788456, guid: 34c04aef9f3389b4da3f7bb3f53e131a, type: 3}
+  - {fileID: 7443787066087351995, guid: 074b8c65151b9be41aabb55b5bd51161, type: 3}
+  poolSize: 0
+  preInstantiateCount: 0
+  setPoolSeparately: 1
+  poolSizes: 3c0000000a0000001400000064000000
+  preInstantiateCounts: 0c000000020000000400000014000000

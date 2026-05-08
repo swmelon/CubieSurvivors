@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ff127c14697b4eb627e938f554641, type: 3}
+  m_Name: Scenario1_Forest
+  m_EditorClassIdentifier: 
+  scenarioName: Forest
+  icon: {fileID: 2800000, guid: 4f93339358ab06d498bd1c9c9dd65f3d, type: 3}
+  Developing: 0
+  bossAppearances: 3
+  bossInterval: 10
+  scenarioNumber: 1
+  difficultyCurveManager: {fileID: 11400000, guid: d5a8f26b1d7de71438dcb8eb825ab677, type: 2}
+  enemyDataContainer: {fileID: 11400000, guid: abf7748bb0d40ba4bb498f56dc17d450, type: 2}
+  esdContainer: {fileID: 11400000, guid: 67465b24bbe4673418319b0c5ce52fae, type: 2}
+  themeDatas:
+  - {fileID: 11400000, guid: fbecaa76501c59a488256f7963269540, type: 2}
+  - {fileID: 11400000, guid: 9115a9570c68c2049bacad4e741b7529, type: 2}
+  - {fileID: 11400000, guid: 63c5354f83cfc0849a96edea8915cecb, type: 2}
+  difficultyCurveDatas:
+  - {fileID: 11400000, guid: 78a61ff1cd43ef24b9d1810994f76534, type: 2}
+  - {fileID: 11400000, guid: 6613356c2074b094db11cb292b08e0c6, type: 2}
+  - {fileID: 11400000, guid: 74dd652b0f3d8ad45a284a835abd9e54, type: 2}
+  themeDataChannel: {fileID: 11400000, guid: 9d06a1203898a9540bdc6de03358ffbf, type: 2}
+  ambientSound:
+    Guid:
+      Data1: -440120029
+      Data2: 1264012161
+      Data3: 342520762
+      Data4: -356944207
+    Path: event:/Music/ambient_scenario1_bird
+  sideFrameMat: {fileID: 2100000, guid: aedea666ec6f0df45affa4f4e0b95c4b, type: 2}
+  pillarMat: {fileID: 2100000, guid: 17f02b5bce64c56409c56c4c6f0c3ad2, type: 2}
+  sideFrameMatChannel: {fileID: 11400000, guid: 46cc4a3bb52a04341825ada2e8a9a31e, type: 2}
+  pillarMatChannel: {fileID: 11400000, guid: 5cc1ca976052b5a42ac20666965b4b00, type: 2}
+  finalBossWeapon: {fileID: 0}

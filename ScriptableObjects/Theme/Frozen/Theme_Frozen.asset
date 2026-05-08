@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71ddddcc86147768671655dacfb3636, type: 3}
+  m_Name: Theme_Frozen
+  m_EditorClassIdentifier: 
+  nonCombatTheme: 0
+  MainStageData: {fileID: 11400000, guid: 99d69ed740972434585b329de3d7e458, type: 2}
+  StageAdapterData: {fileID: 11400000, guid: 2c928f1609fe1364397ebb4bc8ecd93b, type: 2}
+  FloorBlockSet: {fileID: 11400000, guid: a5753da356a62e14fa49cd43497039f3, type: 2}
+  liquidType: 4
+  ambientData: {fileID: 11400000, guid: 88c4c5232ce57a34ba3a56b3d7222be5, type: 2}
+  ambientDataChannel: {fileID: 11400000, guid: ae9721f08d89c2440a68dcd4e4b47de5, type: 2}
+  bgm:
+    Guid:
+      Data1: 571982353
+      Data2: 1299939031
+      Data3: 1316863123
+      Data4: -181403720
+    Path: event:/Music/nectar
+  playlist: []
+  randomHeightMapPadding: 1
+  randomHeightMapThreshold: 0.5
+  localHeightMapProbability: 0.3
+  localHeightMaps:
+  - {fileID: 11400000, guid: 37986a6c60ae2464f81c097a1b7a1cb6, type: 2}
+  bossLocalHeightMaps:
+  - {fileID: 11400000, guid: d4adb86eb0600e4428458e1df774cf4e, type: 2}
+  trapDensity: 0.2
+  trapTypes: 01000000
+  PropDensity: 0.3
+  props:
+    keys:
+    - {fileID: 7808812769839932073, guid: c22170c419b0852439e8ec47ee937f52, type: 3}
+    - {fileID: 7656628755903393981, guid: 1a95c16f6665cfc479f9aa5a6f93cb3a, type: 3}
+    - {fileID: 1752282357049217739, guid: c06d69afeda6468418cf917855d9e777, type: 3}
+    - {fileID: 7705438697864780673, guid: 04b2dd8de9489f94dbe09b2af3262447, type: 3}
+    - {fileID: 7398248850208840493, guid: fb49f887b3c674c449cc557f4d6a669e, type: 3}
+    - {fileID: 6769350040943224496, guid: d113ea8b012682e44a8b540bf89fcdb6, type: 3}
+    values: 010000000100000001000000030000000100000001000000
+  TexturePropDensity: 0.3
+  TextureProps:
+  - {fileID: 3939959702981620215, guid: 87979b9fda535334a9190652840cfa0a, type: 3}
+  OnLiquidPropDensity: 0.4
+  OnliquidProps: []

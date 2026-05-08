@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b2bfc6b697483590202a5807ee22c4, type: 3}
+  m_Name: EnemyBoss
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7489347327991150090, guid: ee1f20ea1a26265469965586d9041cef, type: 3}
+  moveSpeed: 5
+  weight: 1000
+  maxHealth: 2000
+  scale: 2
+  attackToChaseDelay: 0
+  rollerMaterial: {fileID: 2100000, guid: e91a4127ec557554ea6b8d68a321efd7, type: 2}

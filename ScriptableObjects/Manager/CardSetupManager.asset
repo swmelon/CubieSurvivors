@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0cfde3d0f59d040ba734dd1880c8b6, type: 3}
+  m_Name: CardSetupManager
+  m_EditorClassIdentifier: 
+  cardBackPlate:
+    _serializedList:
+    - Key: 0
+      Value: {fileID: 21300000, guid: 3f05126fb554d7241b67edb809f8dfec, type: 2}
+    - Key: 1
+      Value: {fileID: 21300000, guid: 8b1c2abfe299fa741ba8553bec9ae214, type: 3}
+    - Key: 2
+      Value: {fileID: 21300000, guid: 6f973535d84fd184c94973f78ba85c53, type: 2}
+    - Key: 3
+      Value: {fileID: 21300000, guid: 136797753cc6b754fa4ba5b19ef13a98, type: 2}
+    - Key: 4
+      Value: {fileID: 21300000, guid: 24ecf6ad055061c4a84b9cd1f9289a93, type: 3}
+  cardTypeAndBackPlate:
+    _serializedList:
+    - Key: 0
+      Value: 0
+    - Key: 6
+      Value: 1
+    - Key: 1
+      Value: 2
+    - Key: 2
+      Value: 4
+    - Key: 3
+      Value: 3
+    - Key: 4
+      Value: 2
+    - Key: 5
+      Value: 0
+  accessoryCardTheme:
+    _serializedList:
+    - Key: 0
+      Value:
+        CardBackPlate: 4
+        TintColor: {r: 0.79215693, g: 0.79215693, b: 0.79215693, a: 1}
+        TextColor: {r: 1, g: 1, b: 1, a: 1}
+    - Key: 1
+      Value:
+        CardBackPlate: 0
+        TintColor: {r: 0.7028302, g: 0.8038101, b: 1, a: 1}
+        TextColor: {r: 0.8820755, g: 0.91659, b: 1, a: 1}
+    - Key: 2
+      Value:
+        CardBackPlate: 4
+        TintColor: {r: 0.58431375, g: 0, b: 1, a: 1}
+        TextColor: {r: 0.92156863, g: 0.80784315, b: 1, a: 1}
+    - Key: 3
+      Value:
+        CardBackPlate: 4
+        TintColor: {r: 0.11764707, g: 0.7607844, b: 0.49803925, a: 1}
+        TextColor: {r: 0.79215693, g: 1, b: 0.8000001, a: 1}
+    - Key: 4
+      Value:
+        CardBackPlate: 4
+        TintColor: {r: 0.7019608, g: 0.8431373, b: 0.08235294, a: 1}
+        TextColor: {r: 0.98823535, g: 1, b: 0.89019614, a: 1}
+  cardTemplate: {fileID: 9197481963319205126, guid: cb15dd319d238a3498879e98b451018b, type: 3}
+  accessoryCardTemplate: {fileID: 9197481963319205126, guid: ce6210aa6d817b34ab21dbb0952c2c6f, type: 3}
+  accStatsControlCard: {fileID: 9197481963319205126, guid: 6b2d386507e78e146a6dc1afbd988b67, type: 3}
+  fontManager: {fileID: 11400000, guid: a830690268b2d1544a4db31da992fdde, type: 2}

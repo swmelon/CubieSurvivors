@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="CustomSlider" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/CustomSlider.uxml?fileID=9197481963319205126&amp;guid=bddfcba45cfde3b4bbc8ccad28fdaee8&amp;type=3#CustomSlider" />
+    <ui:Template name="LanguageEnumField" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/LanguageEnumField.uxml?fileID=9197481963319205126&amp;guid=3c50bc6cd4004dc42ae2a3439f75d7b8&amp;type=3#LanguageEnumField" />
+    <ui:Template name="LanguageDropDown" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/LanguageDropDown.uxml?fileID=9197481963319205126&amp;guid=38a6481cbb4e6d04580d1e83c007c792&amp;type=3#LanguageDropDown" />
+    <ui:Template name="CustomSlideToggle" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/JoystickPositionSlideToggle.uxml?fileID=9197481963319205126&amp;guid=06cd25b6eba51ff468b38487e46ee9b7&amp;type=3#JoystickPositionSlideToggle" />
+    <ui:Template name="VibrationSlideToggle" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/VibrationSlideToggle.uxml?fileID=9197481963319205126&amp;guid=d361391111846584080d8b7d3f19ea05&amp;type=3#VibrationSlideToggle" />
+    <ui:Template name="GraphicsQualityDropdown" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/GraphicsQualityDropdown.uxml?fileID=9197481963319205126&amp;guid=9f1bd7a4296e33d439b8dc69ab809a36&amp;type=3#GraphicsQualityDropdown" />
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/ColorTheme.uss?fileID=7433441132597879392&amp;guid=5f449be13991f274f900f27f34ccb9a7&amp;type=3#ColorTheme" />
+    <ui:VisualElement name="settings-screen-overlay" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0; align-items: center; justify-content: flex-start; opacity: 1; flex-direction: row;">
+        <ui:VisualElement style="width: 30%; height: 100%;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="true" name="button-back" class="button-skyblue" style="position: absolute; top: 40px; left: 41px; width: 100px; height: 100px; background-image: url(&quot;project://database/Assets/ThirdParty/UI%20button%20pack%203/white%20icon/back.png?fileID=2800000&amp;guid=64619ef912cd2e4419cc3e3e090ac5f8&amp;type=3#back&quot;); -unity-background-image-tint-color: rgb(0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="settings-screen-background" class="settings-screen-background" style="opacity: 1; display: flex; transition-property: opacity; transition-duration: 0.3s; font-size: 20px; top: 0; left: 2px; width: 50%; height: 100%; flex-direction: column;">
+            <ui:VisualElement name="settings-row-music" style="flex-grow: 1; flex-direction: row; width: 100%; align-items: center; height: 10%; position: absolute; top: 150px;">
+                <ui:VisualElement class="image-settings-icon" />
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-music" text="Music" class="pink label-settings" style="-unity-text-align: middle-center;" />
+                <ui:Instance template="CustomSlider" name="slider-music" style="width: 100%; height: 120px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="settings-row-sfx" style="flex-grow: 1; flex-direction: row; width: 100%; align-items: center; height: 10%; position: absolute; top: 300px;">
+                <ui:VisualElement class="image-settings-icon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Sound_on.png?fileID=2800000&amp;guid=901d64fc6ad9d44799c2ad0fd4f182d2&amp;type=3#Icon_PictoIcon_Sound_on&quot;);" />
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-sfx" text="SFX" class="pink label-settings" />
+                <ui:Instance template="CustomSlider" name="slider-sfx" style="width: 100%; height: 120px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="settings-row-language" style="flex-grow: 1; flex-direction: row; width: 100%; align-items: center; height: 10%; position: absolute; top: 450px; display: flex;">
+                <ui:Label tabindex="-1" text="Language" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-language" class="pink label-settings" style="display: flex;" />
+                <ui:Instance template="LanguageEnumField" name="LanguageEnumField" style="width: 100%; height: 120px; display: none;" />
+                <ui:Instance template="LanguageDropDown" name="LanguageDropDown" style="width: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="settings-row-graphic" style="flex-grow: 1; flex-direction: row; width: 100%; align-items: center; height: 10%; position: absolute; top: 600px;">
+                <ui:VisualElement class="image-settings-icon" />
+                <ui:Label tabindex="-1" text="Graphics&#10;Quality" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-graphics-quality" class="pink label-settings" style="display: flex;" />
+                <ui:Instance template="GraphicsQualityDropdown" name="GraphicsQualityDropdown" style="width: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="settings-row-jostick" style="flex-grow: 1; flex-direction: row; width: 100%; align-items: center; height: 10%; position: absolute; top: 750px;">
+                <ui:VisualElement class="image-settings-icon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/ThirdParty/Controller%20Icons%20Pack%20(by%20NullSave)/Textures/Filled/128/joystick1_empty_press.png?fileID=2800000&amp;guid=47c0d5a1e74669d42a5aa12f9a7f3167&amp;type=3#joystick1_empty_press&quot;);" />
+                <ui:Label tabindex="-1" text="Joystick&#10;Position" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-joystick-position" class="pink label-settings" />
+                <ui:Instance template="CustomSlideToggle" name="CustomSlideToggle" style="width: 100%; height: 120px; background-color: rgba(56, 56, 56, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="settings-row-vibration" style="flex-grow: 1; flex-direction: row; width: 100%; align-items: center; height: 10%; position: absolute; top: 900px;">
+                <ui:VisualElement class="image-settings-icon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Haptic.png?fileID=2800000&amp;guid=f6de2a7823f2e4282b6a118ee77c977e&amp;type=3#Icon_PictoIcon_Haptic&quot;);" />
+                <ui:Label tabindex="-1" text="Haptic" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-haptic" class="pink label-settings" />
+                <ui:Instance template="VibrationSlideToggle" name="CustomSlideToggle" style="width: 100%; height: 120px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 30%; height: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

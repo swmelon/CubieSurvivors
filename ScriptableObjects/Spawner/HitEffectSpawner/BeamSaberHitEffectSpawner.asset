@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436ff73471f6477abe6b5370e7ca0c14, type: 3}
+  m_Name: BeamSaberHitEffectSpawner
+  m_EditorClassIdentifier: 
+  poolablePrefab: {fileID: 2748827216848993966, guid: b2f48ad087810b548bf9971cb2ccf286, type: 3}
+  poolSize: 10
+  preInstantiateCount: 0
+  checkLifeSpan: 1
+  checkReleaseEvent: 0
+  spawnedObjectLifeSpan: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cbaef924644a81843081ddb95b97a6, type: 3}
+  m_Name: DifficultyCurveManager
+  m_EditorClassIdentifier: 
+  restartGameEventChannel: {fileID: 11400000, guid: bc469d555748ef048bfd6d0cd3344e24, type: 2}
+  data: {fileID: 11400000, guid: 8fc2568c1f7af5947be8870c790dbc95, type: 2}
+  difficultyCurveUpdateEventChannel: {fileID: 11400000, guid: ea619de76a1eb0a41a521490e9f6fe32, type: 2}
+  difficultyCurveResetEC: {fileID: 11400000, guid: 7543a62229e0dcb41b3997b42148e7dd, type: 2}
+  numEnmiesFactor: 2
+  enmieshealthFactor: 0.7
+  enemyDataContainer: {fileID: 11400000, guid: c02d5a5d34a32ee47adbee683d435027, type: 2}
+  level: 0
+  ppr: 200
+  maxExp: 2000
+  minEnemySpawnDevices: 3
+  maxEnemySpawnDevices: 5

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7e4bf002aea4231b82ea5b8ff0dc661, type: 3}
+  m_Name: EnemySpawner
+  m_EditorClassIdentifier: 
+  prefabDataList:
+  - {fileID: 11400000, guid: d30113356374e7f4a9642a38a27ef599, type: 2}
+  - {fileID: 11400000, guid: ca5a5f57ac743284785df84ea26f6e5d, type: 2}
+  - {fileID: 11400000, guid: 470cdbe7795d414489ca4fed16da97b8, type: 2}
+  - {fileID: 11400000, guid: 5291a08747875f9479e284705955685d, type: 2}
+  - {fileID: 11400000, guid: a397f2bd1f370ef45ae7664fc09567b0, type: 2}
+  - {fileID: 11400000, guid: 7a41addc9a367bf409e2885da58b0587, type: 2}
+  - {fileID: 11400000, guid: 177bbc7b0067f6148a4bf3827371a6b3, type: 2}
+  - {fileID: 11400000, guid: c9d1860af2c16a4418bad014bd3d8ce9, type: 2}
+  - {fileID: 11400000, guid: 83208e90d8709114891e74c4bfb6b271, type: 2}
+  - {fileID: 11400000, guid: 1663631fc0c2b0d4ea99117d7252c353, type: 2}
+  usePreinstantiatedPrefabs: 0
+  preinstantiatedPrefabs:
+    keys: []
+    values: []
+  poolSize: 40
+  preinstantiateCount: 0
+  checkLifeSpan: 0
+  checkReleaseEvent: 0
+  spawnedObjectLifeSpan: 1
+  bossPrefab: {fileID: 7489347327991150090, guid: ee1f20ea1a26265469965586d9041cef, type: 3}
+  enemyManagerChannel: {fileID: 11400000, guid: 69c11f2bc08227c4f93924a49dcb854c, type: 2}
+  difficultyCurveUpdateEC: {fileID: 11400000, guid: ea619de76a1eb0a41a521490e9f6fe32, type: 2}
+  defeatBossEC: {fileID: 11400000, guid: c8b50cf034ee9e54992b6f10635f295f, type: 2}
+  defeatFinalBossEC: {fileID: 11400000, guid: a306e260f3b1263438e3a1370fd8d225, type: 2}
+  nextStageEC: {fileID: 11400000, guid: 521f06c18c01dcd42873a25ccceff80e, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8b6225f1ea93d4d9918bc3f5cc42c4, type: 3}
+  m_Name: SpecialCardsContainer
+  m_EditorClassIdentifier: 
+  killAllEnemiesEC: {fileID: 11400000, guid: 453b566d9a059c941a07e86ff4648915, type: 2}
+  killAllFXCameraChannel: {fileID: 11400000, guid: 0a62c9a6066990e44bed51ad0a535714, type: 2}
+  takeHealthPackEC: {fileID: 11400000, guid: 61e0a0f89f01a9d47819d513577eaf70, type: 2}
+  takeHealthPackIcon: {fileID: 21300000, guid: c3531f7c54a8d0c4e96c55f17c10018f, type: 3}
+  healthPackSFX: 37

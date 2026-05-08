@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <ui:VisualElement style="flex-direction: row; width: 100%; height: 100%;">
+        <ui:VisualElement style="height: 100%; width: 50%;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="true" name="button-settings" class="button-skyblue" style="position: absolute; top: 40px; left: 40px; width: 100px; height: 100px; background-image: url(&quot;project://database/Assets/ThirdParty/UI%20button%20pack%203/white%20icon/settings.png?fileID=2800000&amp;guid=e2d1083e170dfad49b8b65d8d631c04d&amp;type=3#settings&quot;); -unity-background-image-tint-color: rgb(0, 0, 0); display: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="home-screen-anchor" style="width: 40%; height: 100%; align-items: center; justify-content: center; display: flex;">
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="start-button" class="button-skyblue" />
+            <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="upgrade-button" class="button-skyblue" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="settings-button" enable-rich-text="false" class="button-skyblue" />
+            <ui:VisualElement name="About" style="position: absolute; bottom: 0; width: 100%; height: 100px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 20%;" />
+    </ui:VisualElement>
+    <ui:Button text="About" name="button-about" class="button-skyblue" style="position: absolute; right: 50px; bottom: 10px; top: auto; width: 250px; height: 120px; font-size: 42px;" />
+    <ui:Label text="Cubie Survivors_1.0.0" name="label-game-version" enabled="true" style="position: absolute; right: 50px; bottom: 0; -unity-font-definition: url(&quot;project://database/Assets/Local/Art/Font/%EC%B9%B4%EB%93%9C%ED%85%8D%EC%8A%A4%ED%8A%B8_Galmuri-v2.39.7_%ED%95%9C%EA%B8%80/GalmuriMono11.ttf?fileID=12800000&amp;guid=9009b2b93a17f7a4ebc841ba6bec89b3&amp;type=3#GalmuriMono11&quot;); font-size: 24px; display: none;" />
+    <ui:Button text="난이도 설정" name="button-difficulty" class="button-skyblue" style="position: absolute; width: 200px; height: 150px; left: 50px; font-size: 36px; display: none;" />
+</ui:UXML>

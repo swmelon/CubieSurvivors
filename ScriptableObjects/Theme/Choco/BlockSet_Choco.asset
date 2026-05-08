@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e2e988f9ed7248b6acdf05acd2980, type: 3}
+  m_Name: BlockSet_Choco
+  m_EditorClassIdentifier: 
+  CubePrefab: {fileID: 4769063983932107256, guid: 85f8447e3d2684146b03f23302bbef0b, type: 3}
+  HalfCornerCubePrefab: {fileID: 7443787066087351995, guid: 50ed1a8b41b2a3543bb042fd868cf256, type: 3}
+  OneSidedCornerCubePrefab: {fileID: -1392466823343438195, guid: 6a6ed5c047eb0ae468cacf7e9d0329b0, type: 3}
+  TwoSidedCornerCubePrefab: {fileID: 2492957936038427853, guid: e854481a0cbd5ed479481c75c47ce0ff, type: 3}
+  ThreeSidedCornerCubePrefab: {fileID: -2599333707720788456, guid: 0fb814cab6aaca942ba38b0e6fb33984, type: 3}
+  ExplosivePrefab: {fileID: 1462625049709940, guid: ffd00fc82157371428d7cd5460e4f307, type: 3}
+  CornerLEDCubePool: {fileID: 11400000, guid: e46c86e21c377c14fb96cd4321fa2ec0, type: 2}

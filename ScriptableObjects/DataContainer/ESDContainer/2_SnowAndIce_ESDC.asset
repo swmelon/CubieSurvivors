@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb21485468cd7342a08dd82524699a8, type: 3}
+  m_Name: 2_SnowAndIce_ESDC
+  m_EditorClassIdentifier: 
+  datas:
+  - {fileID: 3016478899581286659, guid: 53a63c7f49da3084d806837b385119d7, type: 3}
+  - {fileID: 3016478899581286659, guid: 8ef0c8a1003425b46ad6feb4429d3083, type: 3}
+  - {fileID: 3016478899581286659, guid: 36e364f6c0fc4994db7377586eb9c1e8, type: 3}
+  - {fileID: 975929194245641586, guid: 1f1c552709e632345b0a169275fee9f3, type: 3}

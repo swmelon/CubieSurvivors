@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <ui:VisualElement style="flex-direction: row; width: 100%; height: 100%;">
+        <ui:VisualElement name="VisualElement" style="height: 100%; width: 30%;" />
+        <ui:VisualElement name="home-screen-anchor" style="width: 40%; height: 100%; align-items: center; justify-content: center; display: flex;">
+            <ui:Button text="Resume" display-tooltip-when-elided="true" name="resume-button" class="button-skyblue" style="height: 200px; color: rgb(0, 0, 0); font-size: 55px;" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="settings-button" class="button-skyblue" style="height: 200px; font-size: 55px;" />
+            <ui:Button text="Restart" display-tooltip-when-elided="true" name="restart-button" enable-rich-text="false" class="button-skyblue" style="height: 200px; font-size: 55px;" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="quit-button" enable-rich-text="false" class="button-skyblue" style="height: 200px; font-size: 55px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 105px;" />
+    </ui:VisualElement>
+</ui:UXML>

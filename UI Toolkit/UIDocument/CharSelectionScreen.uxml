@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="SelectionBarLeft" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/SelectionBarLeft.uxml?fileID=9197481963319205126&amp;guid=092105bd71ea21a41ba4b5db47fc555f&amp;type=3#SelectionBarLeft" />
+    <ui:Template name="CharBar" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/SelectionBarRight.uxml?fileID=9197481963319205126&amp;guid=0e0925e5698ef124b8a781c2d50df781&amp;type=3#SelectionBarRight" />
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <ui:VisualElement style="flex-direction: row; width: 100%; height: 100%;">
+        <ui:Instance template="SelectionBarLeft" name="SelectionBarLeft" style="width: 30%; height: 100%; display: none;" />
+        <ui:VisualElement name="section-left" focusable="false" style="width: 30%; height: 100%; align-items: center; justify-content: center; display: flex;">
+            <ui:VisualElement style="width: 80%; height: 60%;">
+                <ui:Label tabindex="-1" text="큐비 능력" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-cubie-ability" class="label-title" style="top: auto; width: 100%; height: 13%; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-bottom-width: 3px; background-color: rgba(255, 255, 255, 0.25);" />
+                <ui:Label tabindex="-1" text="텔레포트하여 일정 거리를 도약할 수 있습니다." parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-char-description" class="label-title" style="width: 100%; height: 87%; background-image: none; -unity-background-image-tint-color: rgba(255, 255, 255, 0); top: 0; font-size: 42px; display: flex; white-space: normal; border-top-left-radius: 0; border-top-right-radius: 0; border-top-width: 2px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;" />
+            </ui:VisualElement>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="true" name="button-back" class="button-skyblue" style="position: absolute; top: 40px; left: 41px; width: 100px; height: 100px; background-image: url(&quot;project://database/Assets/ThirdParty/UI%20button%20pack%203/white%20icon/back.png?fileID=2800000&amp;guid=64619ef912cd2e4419cc3e3e090ac5f8&amp;type=3#back&quot;); -unity-background-image-tint-color: rgb(0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="section-middle" style="width: 40%; height: 100%; align-items: center; justify-content: space-between;">
+            <ui:Label text="큐비 1호" display-tooltip-when-elided="true" name="label-char-name" class="label-title" />
+            <ui:Button text="Select" display-tooltip-when-elided="true" name="button-select" class="button-skyblue" />
+        </ui:VisualElement>
+        <ui:Instance template="CharBar" name="CharSelectionBar" style="width: 30%; height: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

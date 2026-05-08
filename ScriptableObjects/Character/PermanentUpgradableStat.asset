@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454f2ce10a0c483aa06507648558037f, type: 3}
+  m_Name: PermanentUpgradableStat
+  m_EditorClassIdentifier: 
+  saveLoadManager: {fileID: 11400000, guid: 45a55fc874e3d2a4eaa74e9b1b63e307, type: 2}
+  coinManager: {fileID: 11400000, guid: cd53fac1bf14cfb4dbca65d9c9243933, type: 2}

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="ShopItem" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/ShopItem.uxml?fileID=9197481963319205126&amp;guid=5dcd7e6c89d1e3f4aada31f7a5b7e64e&amp;type=3#ShopItem" />
+    <ui:VisualElement name="VisualElement" style="justify-content: center; align-items: flex-start; height: 100%; width: 440px; margin-left: 20px; margin-right: 20px;">
+        <ui:Instance template="ShopItem" name="ShopItem" />
+        <ui:Instance template="ShopItem" name="ShopItem" />
+    </ui:VisualElement>
+</ui:UXML>

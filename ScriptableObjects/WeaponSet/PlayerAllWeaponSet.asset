@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af771320079b4d9fbe35e141087a3dab, type: 3}
+  m_Name: PlayerAllWeaponSet
+  m_EditorClassIdentifier: 
+  weaponPrefabs:
+  - {fileID: 7154119928778447441, guid: df75d55476a2d454b9d1faf95fcee20e, type: 3}
+  - {fileID: 6135696496036583890, guid: 308728db687da424789922729da1ee51, type: 3}
+  - {fileID: 6465819904107405705, guid: 72d5ca84d6ffec646b74c89689225ef2, type: 3}
+  - {fileID: 7143975366022897471, guid: 865ebad1601bba7479f853ec00abc750, type: 3}
+  - {fileID: 5225260183886285766, guid: 106b1dab354b5a0459e6066df995f714, type: 3}
+  - {fileID: 5511273313041668822, guid: 3209bf346ed8a7e4d9b2063d728b152a, type: 3}
+  - {fileID: 2061327410048731215, guid: 91459178303ac8240bb5ca17ef23473c, type: 3}
+  - {fileID: 1264759681055624781, guid: 87391f748c7e31f408ca8142ee85c6f9, type: 3}
+  weaponMountEventChannel: {fileID: 11400000, guid: 53dc04c4ffdb8194296a240ee6d047d3, type: 2}
+  weaponUnmountEventChannel: {fileID: 11400000, guid: d45ee82525006b44b850aa8ace928532, type: 2}

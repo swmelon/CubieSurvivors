@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 30%;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="true" name="button-back" class="button-skyblue" style="position: absolute; top: 40px; left: 41px; width: 100px; height: 100px; background-image: url(&quot;project://database/Assets/ThirdParty/UI%20button%20pack%203/white%20icon/back.png?fileID=2800000&amp;guid=64619ef912cd2e4419cc3e3e090ac5f8&amp;type=3#back&quot;); -unity-background-image-tint-color: rgb(0, 0, 0);" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="true" name="button-refresh" class="button-skyblue" style="position: absolute; top: 40px; width: 100px; height: 100px; background-image: none; -unity-background-image-tint-color: rgb(0, 0, 0); right: 41px;">
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="background-image: url(&quot;project://database/Assets/ThirdParty/Iconfinder/186390_refresh_sync_icon.png?fileID=2800000&amp;guid=39c77af94de45c340b38bb2dd926e211&amp;type=3#186390_refresh_sync_icon&quot;); background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: rgb(0, 0, 0); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; width: 90%; height: 90%;" />
+            </ui:Button>
+            <ui:VisualElement style="flex-grow: 1; position: absolute; bottom: 0; width: 90%; height: 25%; align-items: center; justify-content: center; align-self: center;">
+                <ui:ProgressBar value="80" title="Attack" name="bar-attack" class="bar-attack" style="font-size: 40px; color: rgb(0, 0, 0); -unity-font-definition: url(&quot;project://database/Assets/Local/UI%20Toolkit/LilitaOne-Regular%20SDF.asset?fileID=11400000&amp;guid=6a51d19839e1583429dcb7a35e53e952&amp;type=2#LilitaOne-Regular SDF&quot;); width: 100%;" />
+                <ui:ProgressBar value="20" title="Defense" name="bar-defense" class="bar-defense" style="font-size: 40px; color: rgb(0, 0, 0); -unity-font-definition: url(&quot;project://database/Assets/Local/UI%20Toolkit/LilitaOne-Regular%20SDF.asset?fileID=11400000&amp;guid=6a51d19839e1583429dcb7a35e53e952&amp;type=2#LilitaOne-Regular SDF&quot;); background-color: rgba(0, 0, 0, 0); width: 100%;" />
+                <ui:ProgressBar value="80" title="Agility" name="bar-agility" class="bar-agility" style="font-size: 40px; color: rgb(0, 0, 0); -unity-font-definition: url(&quot;project://database/Assets/Local/UI%20Toolkit/LilitaOne-Regular%20SDF.asset?fileID=11400000&amp;guid=6a51d19839e1583429dcb7a35e53e952&amp;type=2#LilitaOne-Regular SDF&quot;); width: 100%;" />
+                <ui:ProgressBar value="44" title="Luck" name="bar-luck" class="bar-health" style="font-size: 40px; color: rgb(0, 0, 0); -unity-font-definition: url(&quot;project://database/Assets/Local/UI%20Toolkit/LilitaOne-Regular%20SDF.asset?fileID=11400000&amp;guid=6a51d19839e1583429dcb7a35e53e952&amp;type=2#LilitaOne-Regular SDF&quot;); background-color: rgba(0, 0, 0, 0); width: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; width: 70%; justify-content: center; flex-direction: row; align-self: auto; align-items: center;">
+            <ui:Button text="&lt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-left" class="button-skyblue" style="width: 100px; align-self: center; position: absolute; left: 0;" />
+            <ui:Button text="&gt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-right" class="button-skyblue" style="width: 100px; position: absolute; right: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <ui:VisualElement style="width: 100%; height: 100%; flex-direction: row;">
+        <ui:VisualElement style="width: 50%; height: 100%;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="true" name="button-back" class="button-skyblue" style="position: absolute; top: 40px; left: 41px; width: 100px; height: 100px; background-image: url(&quot;project://database/Assets/ThirdParty/UI%20button%20pack%203/white%20icon/back.png?fileID=2800000&amp;guid=64619ef912cd2e4419cc3e3e090ac5f8&amp;type=3#back&quot;); -unity-background-image-tint-color: rgb(0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 30%; height: 100%; flex-direction: column; align-items: center; justify-content: center;">
+            <ui:Button text="Stats" display-tooltip-when-elided="true" name="button-stats" class="button-skyblue" style="width: 80%; height: 25%;" />
+            <ui:Button text="Items" display-tooltip-when-elided="true" name="button-items" class="button-skyblue" style="width: 80%; height: 25%;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 20%; height: 100%;" />
+    </ui:VisualElement>
+    <ui:Label text="Cubie Survivors_1.0.0" name="label-game-version" style="position: absolute; right: 50px; bottom: 0; -unity-font-definition: url(&quot;project://database/Assets/Local/Art/Font/%EC%B9%B4%EB%93%9C%ED%85%8D%EC%8A%A4%ED%8A%B8_Galmuri-v2.39.7_%ED%95%9C%EA%B8%80/GalmuriMono11.ttf?fileID=12800000&amp;guid=9009b2b93a17f7a4ebc841ba6bec89b3&amp;type=3#GalmuriMono11&quot;); font-size: 24px; display: none;" />
+</ui:UXML>

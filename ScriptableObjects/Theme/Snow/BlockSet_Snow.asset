@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e2e988f9ed7248b6acdf05acd2980, type: 3}
+  m_Name: BlockSet_Snow
+  m_EditorClassIdentifier: 
+  CubePrefab: {fileID: 4769063983932107256, guid: b27ccf40e247a9845828b3db6ed532dd, type: 3}
+  HalfCornerCubePrefab: {fileID: 7443787066087351995, guid: 715972dc4b146dc4cb6c9204154162bf, type: 3}
+  OneSidedCornerCubePrefab: {fileID: -1392466823343438195, guid: 2c666ba8be6b6414f9ae51f15d4fc31f, type: 3}
+  TwoSidedCornerCubePrefab: {fileID: 2492957936038427853, guid: d40f479a6de6f394299dfe2d4899ecac, type: 3}
+  ThreeSidedCornerCubePrefab: {fileID: -2599333707720788456, guid: 6289507f5382b4845b69668c24300e06, type: 3}
+  ExplosivePrefab: {fileID: 1462625049709940, guid: ffd00fc82157371428d7cd5460e4f307, type: 3}
+  CornerLEDCubePool: {fileID: 11400000, guid: be3aa6cd1ac39504c83a5e628b6892a1, type: 2}

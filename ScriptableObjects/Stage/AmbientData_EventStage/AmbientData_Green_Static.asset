@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66c91e2be3d27e4ab2b11202f4e24db, type: 3}
+  m_Name: AmbientData_Green_Static
+  m_EditorClassIdentifier: 
+  staticLight: 1
+  staticFog: 1
+  useBackground: 1
+  startFogColor: {r: 0.7372549, g: 1, b: 0.61960787, a: 1}
+  endFogColor: {r: 0.7372549, g: 1, b: 0.61960787, a: 0}
+  startLightColor: {r: 1, g: 0.93106645, b: 0.8207547, a: 1}
+  endLightColor: {r: 0, g: 0, b: 0, a: 0}
+  startLightIntensity: 1
+  endLightIntensity: 0
+  pillarColor: {r: 0, g: 0, b: 0, a: 0}

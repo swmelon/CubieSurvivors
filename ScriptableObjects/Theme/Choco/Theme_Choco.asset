@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71ddddcc86147768671655dacfb3636, type: 3}
+  m_Name: Theme_Choco
+  m_EditorClassIdentifier: 
+  nonCombatTheme: 0
+  MainStageData: {fileID: 11400000, guid: 99d69ed740972434585b329de3d7e458, type: 2}
+  StageAdapterData: {fileID: 11400000, guid: 2c928f1609fe1364397ebb4bc8ecd93b, type: 2}
+  FloorBlockSet: {fileID: 11400000, guid: 5ce22ca3362a6c44cbfde88f293055ab, type: 2}
+  liquidType: 7
+  ambientData: {fileID: 11400000, guid: de5a47913fce2c14baf68eddbc434fda, type: 2}
+  ambientDataChannel: {fileID: 11400000, guid: ae9721f08d89c2440a68dcd4e4b47de5, type: 2}
+  bgm:
+    Guid:
+      Data1: 1763371870
+      Data2: 1171685409
+      Data3: 294371256
+      Data4: 355745354
+    Path: event:/Music/s3_choco
+  playlist: []
+  randomHeightMapPadding: 1
+  randomHeightMapThreshold: 0.3
+  localHeightMapProbability: 0
+  localHeightMaps: []
+  bossLocalHeightMaps: []
+  trapDensity: 0.2
+  trapTypes: 
+  PropDensity: 0.2
+  props:
+    keys:
+    - {fileID: 3980355593574894217, guid: 0cef5d2dfdad6e44685e8dd3918fab4b, type: 3}
+    - {fileID: 3980355593574894217, guid: 7dfebb7e9da51404397d8ae29b5c4a5d, type: 3}
+    - {fileID: 9051069121963615625, guid: 305ca5f11d816004fbdf86831a5618f2, type: 3}
+    - {fileID: 2079191445848981238, guid: 1ec0e5beda4d4dd49aafd480140d5f86, type: 3}
+    values: 02000000020000000100000001000000
+  TexturePropDensity: 0.2
+  TextureProps:
+  - {fileID: 8268757981992095977, guid: bd5939a87c355ce409e63dcd4a6c1185, type: 3}
+  - {fileID: 8268757981992095977, guid: 094dccbc4556b494dbd1f887f2c097d2, type: 3}
+  OnLiquidPropDensity: 0.2
+  OnliquidProps: []

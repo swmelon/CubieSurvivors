@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/CustomControls.uss?fileID=7433441132597879392&amp;guid=492bd3c888b366042a09b701203a86ad&amp;type=3#CustomControls" />
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/ColorTheme.uss?fileID=7433441132597879392&amp;guid=5f449be13991f274f900f27f34ccb9a7&amp;type=3#ColorTheme" />
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SlideToggle.uss?fileID=7433441132597879392&amp;guid=8f99186d830c65a4b8ccc35a5d392558&amp;type=3#SlideToggle" />
+    <ui:VisualElement style="flex-grow: 1; position: absolute; align-self: center; flex-direction: row; justify-content: center;">
+        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Local/UI%20Toolkit/Confeti.renderTexture?fileID=8400000&amp;guid=58cb4622ab0421d459ff279f82de01be&amp;type=2#Confeti&quot;); position: relative; width: 1080px; height: 1080px; align-self: center;" />
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Local/UI%20Toolkit/Confeti.renderTexture?fileID=8400000&amp;guid=58cb4622ab0421d459ff279f82de01be&amp;type=2#Confeti&quot;); position: relative; width: 1080px; height: 1080px; align-self: center;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+        <ui:VisualElement name="cards" style="flex-grow: 1; flex-direction: row; align-items: center; opacity: 1; width: 100%; height: 100%; justify-content: center; display: flex;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-bottom" class="button-skyblue" style="height: 200px; width: 450px; position: absolute; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; top: 800px; right: 200px;" />
+        </ui:VisualElement>
+        <ui:ScrollView mode="Horizontal" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" name="scrollview-cards" style="position: absolute;" />
+    </ui:VisualElement>
+</ui:UXML>

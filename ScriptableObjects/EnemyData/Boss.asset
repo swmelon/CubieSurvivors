@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b2bfc6b697483590202a5807ee22c4, type: 3}
+  m_Name: Boss
+  m_EditorClassIdentifier: 
+  prefab: {fileID: -7830041676446141625, guid: d4b84f86af27c9c438b3ea52b98495d2, type: 3}
+  moveSpeed: 5
+  weight: 1000
+  maxHealth: 10
+  scale: 2
+  attackToChaseDelay: 0
+  rollerMaterial: {fileID: 2100000, guid: d34756431affb2a46bec8bc3698cf0c2, type: 2}
+  color: {r: 0, g: 0.4415447, b: 1, a: 1}

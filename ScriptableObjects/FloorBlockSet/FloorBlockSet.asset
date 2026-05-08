@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e2e988f9ed7248b6acdf05acd2980, type: 3}
+  m_Name: FloorBlockSet
+  m_EditorClassIdentifier: 
+  CubePrefab: {fileID: 4769063983932107256, guid: 4e121b12fce861143806fff9e99e1a22, type: 3}
+  HalfCornerCubePrefab: {fileID: -5450789207116994434, guid: 1fe46d93a9e545541b1456f4b30f0e07, type: 3}
+  OneSidedCornerCubePrefab: {fileID: -7982677830357017505, guid: f5fcd042157afca41865e482fe2f5c7f, type: 3}
+  TwoSidedCornerCubePrefab: {fileID: 2667893198388273942, guid: 5c3d7d81b3cb40a4fa316f9e2a246251, type: 3}
+  ThreeSidedCornerCubePrefab: {fileID: 8559095617463047915, guid: 302a92d21d469b6458448be27657a729, type: 3}
+  ExplosivePrefab: {fileID: 1462625049709940, guid: ffd00fc82157371428d7cd5460e4f307, type: 3}
+  CornerLEDCubePool: {fileID: 11400000, guid: 3b09ec2452880024eb9d0451a5959cf4, type: 2}

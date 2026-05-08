@@ -1,0 +1,483 @@
+.button-stats-control {
+    background-color: rgba(188, 188, 188, 0.33);
+    border-left-color: rgb(153, 153, 153);
+    border-right-color: rgb(153, 153, 153);
+    border-top-color: rgb(153, 153, 153);
+    border-bottom-color: rgb(153, 153, 153);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 48px;
+    height: 45px;
+}
+
+.button-stats-control:active {
+    background-color: rgba(188, 188, 188, 0.5);
+    border-left-color: rgb(202, 255, 48);
+    border-right-color: rgb(202, 255, 48);
+    border-top-color: rgb(202, 255, 48);
+    border-bottom-color: rgb(202, 255, 48);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 48px;
+    height: 45px;
+}
+
+.button-skyblue:active {
+    width: 500px;
+    height: 250px;
+    font-size: 64px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(255, 107, 213, 0.25);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: none;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+
+.button-skyblue:hover {
+    width: 500px;
+    height: 250px;
+    font-size: 64px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(255, 198, 239, 0.25);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: none;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    scale: 1.1 1.1;
+    transition-timing-function: ease-in;
+    transition-duration: 0.1s;
+}
+
+.button-skyblue:focus {
+    width: 500px;
+    height: 250px;
+    font-size: 64px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(255, 198, 239, 0.25);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: none;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    scale: 1.1 1.1;
+    transition-timing-function: ease-in;
+    transition-duration: 0.1s;
+}
+
+.button-skyblue {
+    width: 500px;
+    height: 250px;
+    font-size: 65px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(255, 198, 239, 0.25);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: none;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    transition-property: scale;
+    -unity-font: url("project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Fonts/LilitaOne-Regular.ttf?fileID=12800000&guid=c16eb7d7c3953489db00312b8b09df4b&type=3#LilitaOne-Regular");
+}
+
+.button-character {
+    width: 70%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-image: url("project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample05_s.png?fileID=21300000&guid=9221a33849c62451f8c1384e7f22c9ba&type=3#Character_Sample05_s");
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 2.5px;
+    border-bottom-width: 2.5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition-duration: 0.2s;
+}
+
+.button-character:active {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(128, 128, 128, 0.4);
+    background-image: url("project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample05_s.png?fileID=21300000&guid=9221a33849c62451f8c1384e7f22c9ba&type=3#Character_Sample05_s");
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.label-title {
+    font-size: 42px;
+    -unity-text-align: middle-center;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgb(149, 149, 149);
+    border-right-color: rgb(149, 149, 149);
+    border-top-color: rgb(149, 149, 149);
+    border-bottom-color: rgb(149, 149, 149);
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    top: 50px;
+    background-color: rgba(255, 255, 255, 0.25);
+    -unity-font-definition: url("project://database/Assets/Local/UI%20Toolkit/LilitaOne-Regular%20SDF.asset?fileID=11400000&guid=6a51d19839e1583429dcb7a35e53e952&type=2#LilitaOne-Regular SDF");
+    height: 100px;
+    width: 360px;
+}
+
+.label-card {
+    height: 10%;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    -unity-text-align: upper-center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.button-card {
+    height: 100%;
+    background-image: url("project://database/Assets/ThirdParty/PetterSunnyVR/Sprites/Kenny%20Ui%20Pack/PNG/blue_button08.png?fileID=2800000&guid=695609765f728f14997d61fb645f873e&type=3#blue_button08");
+    width: 100%;
+}
+
+.button-card:hover {
+    height: 100%;
+    background-image: url("project://database/Assets/ThirdParty/PetterSunnyVR/Sprites/Kenny%20Ui%20Pack/PNG/blue_button08.png?fileID=2800000&guid=695609765f728f14997d61fb645f873e&type=3#blue_button08");
+    width: 100%;
+    transition-timing-function: ease-in-elastic;
+    transition-duration: 0.1s;
+}
+
+.button-card:focus {
+    height: 100%;
+    background-image: url("project://database/Assets/ThirdParty/PetterSunnyVR/Sprites/Kenny%20Ui%20Pack/PNG/blue_button08.png?fileID=2800000&guid=695609765f728f14997d61fb645f873e&type=3#blue_button08");
+    width: 100%;
+    scale: 1.1 1.1;
+    transition-timing-function: ease-in-elastic;
+    transition-duration: 0.1s;
+}
+
+.button-card:active {
+    height: 100%;
+    background-image: url("project://database/Assets/ThirdParty/PetterSunnyVR/Sprites/Kenny%20Ui%20Pack/PNG/blue_button08.png?fileID=2800000&guid=695609765f728f14997d61fb645f873e&type=3#blue_button08");
+    width: 100%;
+}
+
+.button-character:focus {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(128, 128, 128, 0.4);
+    background-image: url("project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample05_s.png?fileID=21300000&guid=9221a33849c62451f8c1384e7f22c9ba&type=3#Character_Sample05_s");
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.label-settings {
+    height: 120px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 40px;
+    -unity-text-align: middle-center;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-shrink: var(--1);
+    width: 600px;
+}
+
+.image-settings-icon {
+    flex-grow: 1;
+    position: relative;
+    background-image: url("project://database/Assets/ThirdParty/GUI%20PRO%20Kit%20-%20Casual%20Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Music_on.png?fileID=2800000&guid=eb165af05aa2e4ab2bcad217611774b8&type=3#Icon_PictoIcon_Music_on");
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(190, 190, 190);
+    border-right-color: rgb(190, 190, 190);
+    border-top-color: rgb(190, 190, 190);
+    border-bottom-color: rgb(190, 190, 190);
+    display: none;
+}
+
+.bar-attack .unity-progress-bar__progress {
+    background-color: rgb(119, 221, 119);
+}
+
+.bar-health .unity-progress-bar__progress {
+    background-color: rgb(255, 105, 97);
+}
+
+.bar-defense .unity-progress-bar__progress {
+    background-color: rgb(253, 253, 150);
+}
+
+.bar-agility .unity-progress-bar__progress {
+    background-color: rgb(174, 198, 207);
+}
+
+.unity-progress-bar__container {
+    min-height: 10px;
+    height: 40px;
+    max-height: 40px;
+}
+
+.unity-progress-bar__progress {
+    height: 38px;
+    margin: 0;
+}
+
+.unity-progress-bar__background {
+    border-radius: 3px;
+    background-color: rgb(68, 68, 68);
+}
+
+.button-stage {
+    background-image: url("project://database/Assets/Local/Art/IconExports/EventStage1.png?fileID=2800000&guid=5aca7bd29440b80489ca91bc5d65351a&type=3#EventStage1");
+    width: 400px;
+    height: 400px;
+    justify-content: flex-end;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(171, 171, 171, 0.33);
+}
+
+.button-stage:focus {
+    background-image: url("project://database/Assets/Local/Art/IconExports/EventStage1.png?fileID=2800000&guid=5aca7bd29440b80489ca91bc5d65351a&type=3#EventStage1");
+    width: 440px;
+    height: 440px;
+    justify-content: flex-end;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(171, 171, 171, 0.33);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-cubic;
+}
+
+.bar {
+}
+
+.bar-stat-card {
+    width: 80%;
+    align-self: center;
+    display: none;
+}
+
+.text-stat {
+    align-self: flex-start;
+    left: 20%;
+    -unity-font-definition: url("project://database/Assets/Local/Art/Font/FontAssets/en_card_ThaleahFat_TTF%20SDF.asset?fileID=11400000&guid=b007a8815be190347a4000dad76905c6&type=2#en_card_ThaleahFat_TTF SDF");
+}
+
+.button_shelf_slot_frame {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(4, 151, 255, 0.27);
+    border-right-color: rgba(4, 151, 255, 0.27);
+    border-top-color: rgba(4, 151, 255, 0.27);
+    border-bottom-color: rgba(4, 151, 255, 0.27);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+}
+
+.button_shelf_slot_frame:hover {
+    scale: 1.1 1.1;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    border-left-color: rgba(147, 255, 153, 0.24);
+    border-right-color: rgba(147, 255, 153, 0.24);
+    border-top-color: rgba(147, 255, 153, 0.24);
+    border-bottom-color: rgba(147, 255, 153, 0.24);
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+}
+
+.button_shelf_slot_frame:focus {
+    scale: 1.1 1.1;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    border-left-color: rgba(147, 255, 153, 0.24);
+    border-right-color: rgba(147, 255, 153, 0.24);
+    border-top-color: rgba(147, 255, 153, 0.24);
+    border-bottom-color: rgba(147, 255, 153, 0.24);
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+}
+
+.button-shop-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(188, 188, 188, 0);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.button-shop-item:active {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(96, 96, 96, 0.21);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}

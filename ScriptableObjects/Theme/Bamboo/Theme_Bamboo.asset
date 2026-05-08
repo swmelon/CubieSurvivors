@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71ddddcc86147768671655dacfb3636, type: 3}
+  m_Name: Theme_Bamboo
+  m_EditorClassIdentifier: 
+  nonCombatTheme: 0
+  MainStageData: {fileID: 11400000, guid: 99d69ed740972434585b329de3d7e458, type: 2}
+  StageAdapterData: {fileID: 11400000, guid: 2c928f1609fe1364397ebb4bc8ecd93b, type: 2}
+  FloorBlockSet: {fileID: 11400000, guid: ba8a51e7c137c014989eda9d436c9116, type: 2}
+  liquidType: 0
+  ambientData: {fileID: 11400000, guid: 909f33f106b438f4b92e6fdcd556b5dc, type: 2}
+  ambientDataChannel: {fileID: 11400000, guid: ae9721f08d89c2440a68dcd4e4b47de5, type: 2}
+  bgm:
+    Guid:
+      Data1: -175902545
+      Data2: 1325247603
+      Data3: 1446566531
+      Data4: -293083563
+    Path: event:/Music/wind_and_waves
+  playlist: []
+  randomHeightMapPadding: 4
+  randomHeightMapThreshold: 0.5
+  localHeightMapProbability: 0
+  localHeightMaps: []
+  bossLocalHeightMaps: []
+  trapDensity: 0.2
+  trapTypes: 
+  PropDensity: 0.2
+  props:
+    keys:
+    - {fileID: 7808812769839932073, guid: 47344bbaaf374b04696691ba96eee072, type: 3}
+    - {fileID: 6442860647734923315, guid: 57ebc8e6030473d469326f2bcec25d3e, type: 3}
+    - {fileID: 6357281314780878182, guid: 97314a65a6c7d954aa91eeb06ed95635, type: 3}
+    values: 010000000500000003000000
+  TexturePropDensity: 0.4
+  TextureProps:
+  - {fileID: 7411512283884819380, guid: 1ba40ac6ace819445910a04cd43c4958, type: 3}
+  OnLiquidPropDensity: 0.2
+  OnliquidProps:
+  - {fileID: 3921255867408600361, guid: 7030002c74ff04540ac7bc56ac52b5c7, type: 3}

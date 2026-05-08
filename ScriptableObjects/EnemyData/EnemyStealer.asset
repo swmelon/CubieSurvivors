@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b2bfc6b697483590202a5807ee22c4, type: 3}
+  m_Name: EnemyStealer
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6264179854998141978, guid: ec58d5b88b73ca04183df9a940d81c3a, type: 3}
+  moveSpeed: 2
+  weight: 10
+  maxHealth: 100
+  scale: 0.5
+  attackToChaseDelay: 0
+  rollerMaterial: {fileID: 2100000, guid: dc8eb749b4ab59a4d99fef57efaf7963, type: 2}

@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7425a8d7df9349e788dc4bac3312a9a0, type: 3}
+  m_Name: PlayerCharacterInitialTransformData
+  m_EditorClassIdentifier: 
+  serializedInitialTransforms:
+    keys:
+    - Body
+    - Mainbody
+    - Upperbody
+    - WeaponSlots
+    - Stabilizer
+    - LeftBar
+    - RightBar
+    - WS_RT_High_Right
+    - WS_RT_High_Left
+    - WS_R_Low_Left
+    - WS_R_Low_Right
+    - WS_Hammer
+    - CoverLeft
+    - CoverRight
+    - EyebrowLeft
+    - EyebrowRight
+    - PupilLeft
+    - PupilRight
+    - ScleraLeft
+    - ScleraRight
+    - Shoulder
+    - AccSlot_Hat
+    - AccSlot_Glasses
+    - CylinderVerticalLeft
+    - CylinderVerticalRight
+    - BackWeaponSlot
+    - BackWeaponBar
+    - WS_B_Low
+    - WS_B_High
+    - CylinderLeft
+    - CylinderRight
+    - Roller
+    - MeleeWeaponSlot
+    - WS_Shield
+    values:
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0.751, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0.844, y: 0.0020000339, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.1, z: 0.1}
+    - position: {x: -0.84000003, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.1, z: 0.1}
+    - position: {x: -0.84, y: 0.050000012, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0.84400004, y: 0.051999986, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0.844, y: -0.04799992, z: 0}
+      rotation: {x: -0, y: -0, z: 1, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: -0.84000003, y: -0.050000012, z: 0}
+      rotation: {x: -0, y: -0, z: 1, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0.10000008, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: -0.2499998, y: 0.888, z: 0.08521376}
+      rotation: {x: -6.123235e-17, y: 1, z: 6.123235e-17, w: 0.00000019470718}
+      scale: {x: 0.4490171, y: 0.33676285, z: 0.11225428}
+    - position: {x: 0.2499998, y: 0.888, z: 0.075}
+      rotation: {x: -6.123235e-17, y: 1, z: 6.123235e-17, w: 0.00000019470718}
+      scale: {x: 0.4490171, y: 0.33676285, z: 0.11225428}
+    - position: {x: -0.24999979, y: 1.0347673, z: 0.17054187}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.4490171, y: 0.05, z: 0.05}
+    - position: {x: 0.2500002, y: 1.0347673, z: 0.17054196}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.4490171, y: 0.05, z: 0.05}
+    - position: {x: -0.24999982, y: 0.884, z: 0.099999815}
+      rotation: {x: -6.123235e-17, y: 1, z: 6.123235e-17, w: 0.00000019470718}
+      scale: {x: 0.4, y: 0.3, z: 0.1}
+    - position: {x: 0.25000018, y: 0.88400006, z: 0.09999999}
+      rotation: {x: -6.123235e-17, y: 1, z: 6.123235e-17, w: 0.00000019470718}
+      scale: {x: 0.4, y: 0.3, z: 0.1}
+    - position: {x: -0.19999988, y: 0.8499999, z: 0.14221056}
+      rotation: {x: -6.123235e-17, y: 1, z: 6.123235e-17, w: 0.00000019470718}
+      scale: {x: 0.1818723, y: 0.13640422, z: 0.045468073}
+    - position: {x: 0.20000017, y: 0.8499999, z: 0.14221068}
+      rotation: {x: -6.123235e-17, y: 1, z: 6.123235e-17, w: 0.00000019470718}
+      scale: {x: 0.1818723, y: 0.13640422, z: 0.045468073}
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: -6.325e-17, y: 1, z: 6.325e-17, w: 0.00000020112293}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 1.06, z: 0.08}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0.935, z: 0.22}
+      rotation: {x: 0, y: 1, z: 0, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0, z: 0.1}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0.815, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0.815, z: 0}
+      rotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: -0.55, y: 0, z: -0.25}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.15, z: 0.5}
+    - position: {x: 0.55, y: 0, z: -0.25}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.15, z: 0.5}
+    - position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: -0.123, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - position: {x: 0, y: 0.100000024, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}

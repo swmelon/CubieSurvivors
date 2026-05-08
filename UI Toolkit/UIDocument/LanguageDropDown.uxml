@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/CustomControls.uss?fileID=7433441132597879392&amp;guid=492bd3c888b366042a09b701203a86ad&amp;type=3#CustomControls" />
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/ColorTheme.uss?fileID=7433441132597879392&amp;guid=5f449be13991f274f900f27f34ccb9a7&amp;type=3#ColorTheme" />
+    <ui:DropdownField name="MyDropdown" choices="1,2,3,4" class="pink" style="width: 100%; height: 120px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 40px; -unity-text-align: middle-center; flex-shrink: 1;" />
+</ui:UXML>

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e2e988f9ed7248b6acdf05acd2980, type: 3}
+  m_Name: BlockSet_Step_Bamboo
+  m_EditorClassIdentifier: 
+  CubePrefab: {fileID: 4769063983932107256, guid: 38e0acf6ad882f044a59d0f1ee3f9bf7, type: 3}
+  HalfCornerCubePrefab: {fileID: 7443787066087351995, guid: fa3bc2bc57393fd46a2258db85125454, type: 3}
+  OneSidedCornerCubePrefab: {fileID: -1392466823343438195, guid: 3411c660376ac694ea32ac25993ab5ff, type: 3}
+  TwoSidedCornerCubePrefab: {fileID: 2492957936038427853, guid: c8cabe1f48199dc4da3e89f4b3bf3a48, type: 3}
+  ThreeSidedCornerCubePrefab: {fileID: -2599333707720788456, guid: b2026791d8afcf843ba17f43db24ca87, type: 3}
+  ExplosivePrefab: {fileID: 1462625049709940, guid: ffd00fc82157371428d7cd5460e4f307, type: 3}
+  CornerLEDCubePool: {fileID: 11400000, guid: 607c5c8203d504e49a3bd7456c9c845c, type: 2}

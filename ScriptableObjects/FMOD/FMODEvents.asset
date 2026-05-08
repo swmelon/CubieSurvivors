@@ -1,0 +1,467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd581d9cb9877248a1909aaf3455206, type: 3}
+  m_Name: FMODEvents
+  m_EditorClassIdentifier: 
+  <ambience>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <music>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <playerFootsteps>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <coinCollected>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <coinIdle>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  SFXEvents:
+    _serializedList:
+    - Key: 1
+      Value:
+        Guid:
+          Data1: 1460421337
+          Data2: 1242253180
+          Data3: 1615815063
+          Data4: -1921473480
+        Path: event:/SFX/Combat/Explosion/GranadeExploded
+    - Key: 10
+      Value:
+        Guid:
+          Data1: 662486071
+          Data2: 1316016029
+          Data3: 1112867769
+          Data4: -329119276
+        Path: event:/SFX/Combat/Shoot/Launch Bomb
+    - Key: 9
+      Value:
+        Guid:
+          Data1: 212671372
+          Data2: 1157726557
+          Data3: 1388914879
+          Data4: -990740135
+        Path: event:/SFX/Combat/Explosion/LightningExploded
+    - Key: 8
+      Value:
+        Guid:
+          Data1: -902591333
+          Data2: 1105346858
+          Data3: 668408216
+          Data4: 1927503898
+        Path: event:/SFX/Combat/Hit/MetalHit
+    - Key: 7
+      Value:
+        Guid:
+          Data1: -1968424748
+          Data2: 1104335656
+          Data3: -1022198897
+          Data4: 478756082
+        Path: event:/SFX/Player/Interactive/Heartbeat
+    - Key: 6
+      Value:
+        Guid:
+          Data1: -532690668
+          Data2: 1200837327
+          Data3: -1153806708
+          Data4: 1768599587
+        Path: event:/SFX/Player/Abillity/Teleport
+    - Key: 5
+      Value:
+        Guid:
+          Data1: -378363996
+          Data2: 1297199045
+          Data3: 1381782204
+          Data4: -446209406
+        Path: event:/SFX/Combat/Shoot/Laser
+    - Key: 2
+      Value:
+        Guid:
+          Data1: -388267444
+          Data2: 1195930120
+          Data3: -339762516
+          Data4: 689680234
+        Path: event:/SFX/Combat/Explosion/NukeExploded
+    - Key: 3
+      Value:
+        Guid:
+          Data1: 827208363
+          Data2: 1336771226
+          Data3: 121798068
+          Data4: -751112082
+        Path: event:/SFX/Combat/Explosion/EnemyExploded
+    - Key: 0
+      Value:
+        Guid:
+          Data1: 618226311
+          Data2: 1333787061
+          Data3: 1601827991
+          Data4: 892441701
+        Path: event:/SFX/Player/ExpCollected
+    - Key: 11
+      Value:
+        Guid:
+          Data1: 457785045
+          Data2: 1317324233
+          Data3: -1559525241
+          Data4: -95833675
+        Path: event:/SFX/Combat/Shoot/NovaWave
+    - Key: 12
+      Value:
+        Guid:
+          Data1: 1126792330
+          Data2: 1125184053
+          Data3: -815447671
+          Data4: 1412749566
+        Path: event:/SFX/Combat/Shoot/MoonWave
+    - Key: 21
+      Value:
+        Guid:
+          Data1: 414061911
+          Data2: 1333397990
+          Data3: -1245844577
+          Data4: 1797314623
+        Path: event:/SFX/Player/Interactive/HealSmall
+    - Key: 20
+      Value:
+        Guid:
+          Data1: 414061911
+          Data2: 1333397990
+          Data3: -1245844577
+          Data4: 1797314623
+        Path: event:/SFX/Player/Interactive/Eat
+    - Key: 16
+      Value:
+        Guid:
+          Data1: -720381590
+          Data2: 1117765555
+          Data3: 98288292
+          Data4: -336672070
+        Path: event:/SFX/Combat/Misc/MineTracking
+    - Key: 15
+      Value:
+        Guid:
+          Data1: -34760914
+          Data2: 1146337029
+          Data3: -292658033
+          Data4: -1797273143
+        Path: event:/SFX/Combat/Explosion/ShieldExploded
+    - Key: 17
+      Value:
+        Guid:
+          Data1: 51694300
+          Data2: 1111857319
+          Data3: -1862602622
+          Data4: 21926604
+        Path: event:/SFX/Combat/Explosion/AcidExploded
+    - Key: 18
+      Value:
+        Guid:
+          Data1: 114206603
+          Data2: 1093215527
+          Data3: 236924094
+          Data4: -2016534030
+        Path: event:/SFX/Combat/Weapon/BurnerSmall
+    - Key: 28
+      Value:
+        Guid:
+          Data1: -247372751
+          Data2: 1266100715
+          Data3: 948055203
+          Data4: 37825423
+        Path: event:/SFX/Combat/Weapon/BurnerBig
+    - Key: 19
+      Value:
+        Guid:
+          Data1: 1141741294
+          Data2: 1205766417
+          Data3: -1196331346
+          Data4: 1580803874
+        Path: event:/SFX/Combat/Explosion/NukeExploded 2
+    - Key: 4
+      Value:
+        Guid:
+          Data1: 1364702443
+          Data2: 1095911895
+          Data3: 589318278
+          Data4: -1674690014
+        Path: event:/SFX/Combat/Explosion/StageBoomed
+    - Key: 30
+      Value:
+        Guid:
+          Data1: -978988618
+          Data2: 1227343026
+          Data3: -2116194135
+          Data4: 47381163
+        Path: event:/SFX/UI/UIBuyItem
+    - Key: 14
+      Value:
+        Guid:
+          Data1: 1732292231
+          Data2: 1219327395
+          Data3: -1815198579
+          Data4: 520933633
+        Path: event:/SFX/Player/Interactive/UISelect
+    - Key: 29
+      Value:
+        Guid:
+          Data1: 1214354868
+          Data2: 1077641526
+          Data3: 53608362
+          Data4: -632199045
+        Path: event:/SFX/Player/Interactive/UISelectNegative
+    - Key: 13
+      Value:
+        Guid:
+          Data1: -1297069883
+          Data2: 1316208008
+          Data3: 361628331
+          Data4: -1850584755
+        Path: event:/SFX/Combat/Hit/NovaHit
+    - Key: 27
+      Value:
+        Guid:
+          Data1: 2061261513
+          Data2: 1095259030
+          Data3: 326482603
+          Data4: -1598243512
+        Path: event:/SFX/Player/Interactive/HealBig
+    - Key: 25
+      Value:
+        Guid:
+          Data1: -1540248129
+          Data2: 1298210772
+          Data3: -388822654
+          Data4: -1131220168
+        Path: event:/SFX/Dead/ItemBoxCrashed
+    - Key: 24
+      Value:
+        Guid:
+          Data1: -755637395
+          Data2: 1266573209
+          Data3: -1299604836
+          Data4: 1878082382
+        Path: event:/SFX/Player/Interactive/WaterSplash
+    - Key: 23
+      Value:
+        Guid:
+          Data1: 1170037063
+          Data2: 1132747106
+          Data3: -17566336
+          Data4: -1157934867
+        Path: event:/SFX/Player/Interactive/CoinCollected
+    - Key: 22
+      Value:
+        Guid:
+          Data1: 680744354
+          Data2: 1182191489
+          Data3: 2096843406
+          Data4: 1767148618
+        Path: event:/SFX/Combat/Misc/LightningBolb
+    - Key: 26
+      Value:
+        Guid:
+          Data1: 529968795
+          Data2: 1258412373
+          Data3: -978371152
+          Data4: 1883274791
+        Path: event:/SFX/Prop/PropCollapsed
+    - Key: 40
+      Value:
+        Guid:
+          Data1: -559101197
+          Data2: 1263584118
+          Data3: 837998493
+          Data4: 1413542725
+        Path: event:/SFX/UI/UpgradeAccessory
+    - Key: 31
+      Value:
+        Guid:
+          Data1: 479176243
+          Data2: 1292272231
+          Data3: 1210210715
+          Data4: 188114454
+        Path: event:/SFX/UI/UIBuyItem 2
+    - Key: 37
+      Value:
+        Guid:
+          Data1: -359563129
+          Data2: 1192122826
+          Data3: -2035422320
+          Data4: 1537256962
+        Path: event:/SFX/Player/Interactive/HealHealthPack
+    - Key: 36
+      Value:
+        Guid:
+          Data1: -1967444030
+          Data2: 1116125846
+          Data3: -1600695167
+          Data4: -1015198948
+        Path: event:/SFX/Player/Interactive/WalkieTalkie
+    - Key: 35
+      Value:
+        Guid:
+          Data1: 467416123
+          Data2: 1277738541
+          Data3: 2088244632
+          Data4: -13460882
+        Path: event:/SFX/Player/Interactive/AuraCollected
+    - Key: 34
+      Value:
+        Guid:
+          Data1: 574949162
+          Data2: 1179266038
+          Data3: -213352796
+          Data4: -1696852383
+        Path: event:/SFX/Combat/Hit/HeavyHit
+    - Key: 33
+      Value:
+        Guid:
+          Data1: -1227669140
+          Data2: 1151681388
+          Data3: 419655321
+          Data4: -861811969
+        Path: event:/SFX/Player/Interactive/Hit
+    - Key: 32
+      Value:
+        Guid:
+          Data1: 1501696821
+          Data2: 1287787933
+          Data3: -1400603999
+          Data4: -746704872
+        Path: event:/SFX/UI/UIUpgradeStat
+    - Key: 41
+      Value:
+        Guid:
+          Data1: -1875370940
+          Data2: 1219308222
+          Data3: 277434769
+          Data4: -193323553
+        Path: event:/SFX/UI/octave_c
+    - Key: 42
+      Value:
+        Guid:
+          Data1: 1094606790
+          Data2: 1282039468
+          Data3: -99957322
+          Data4: -1820622867
+        Path: event:/SFX/UI/octave_d
+    - Key: 43
+      Value:
+        Guid:
+          Data1: 1541610809
+          Data2: 1251474278
+          Data3: -555347541
+          Data4: -136449342
+        Path: event:/SFX/UI/octave_e
+    - Key: 44
+      Value:
+        Guid:
+          Data1: -1598065938
+          Data2: 1230772109
+          Data3: 101346200
+          Data4: -1273953709
+        Path: event:/SFX/UI/octave_f
+    - Key: 45
+      Value:
+        Guid:
+          Data1: 322643656
+          Data2: 1161948248
+          Data3: 1188008838
+          Data4: 573651464
+        Path: event:/SFX/UI/octave_g
+    - Key: 46
+      Value:
+        Guid:
+          Data1: 948263922
+          Data2: 1119311580
+          Data3: -1263070793
+          Data4: 2060780799
+        Path: event:/SFX/UI/octave_a
+    - Key: 47
+      Value:
+        Guid:
+          Data1: -206675503
+          Data2: 1274946061
+          Data3: 1195037847
+          Data4: -51344585
+        Path: event:/SFX/UI/octave_b
+    - Key: 48
+      Value:
+        Guid:
+          Data1: -1941423119
+          Data2: 1173853724
+          Data3: 229585063
+          Data4: 2058505102
+        Path: event:/SFX/UI/octave_c_high
+    - Key: 49
+      Value:
+        Guid:
+          Data1: -594665752
+          Data2: 1149007628
+          Data3: -114227317
+          Data4: -560969637
+        Path: event:/SFX/Player/Interactive/OpenChest
+    - Key: 50
+      Value:
+        Guid:
+          Data1: 1752090919
+          Data2: 1251548514
+          Data3: 1788640929
+          Data4: 241767617
+        Path: event:/SFX/Combat/Hit/AcidBurn
+    - Key: 52
+      Value:
+        Guid:
+          Data1: 1782052975
+          Data2: 1251678209
+          Data3: 1385952139
+          Data4: -327630154
+        Path: event:/SFX/Combat/Shoot/Whoosh
+    - Key: 51
+      Value:
+        Guid:
+          Data1: -1707267108
+          Data2: 1246670764
+          Data3: -468697697
+          Data4: -1522524899
+        Path: event:/SFX/Environment/Splat
+    - Key: 53
+      Value:
+        Guid:
+          Data1: 720731878
+          Data2: 1209377180
+          Data3: -1690753638
+          Data4: -4283238
+        Path: event:/SFX/Combat/Hit/PlateHit

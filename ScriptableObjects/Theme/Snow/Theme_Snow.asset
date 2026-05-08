@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71ddddcc86147768671655dacfb3636, type: 3}
+  m_Name: Theme_Snow
+  m_EditorClassIdentifier: 
+  nonCombatTheme: 0
+  MainStageData: {fileID: 11400000, guid: 99d69ed740972434585b329de3d7e458, type: 2}
+  StageAdapterData: {fileID: 11400000, guid: 2c928f1609fe1364397ebb4bc8ecd93b, type: 2}
+  FloorBlockSet: {fileID: 11400000, guid: 8dd43d2d4454c0d4da9266d0cb2bee37, type: 2}
+  liquidType: 4
+  ambientData: {fileID: 11400000, guid: 73b4849929917a645a8e86176723ee9e, type: 2}
+  ambientDataChannel: {fileID: 11400000, guid: ae9721f08d89c2440a68dcd4e4b47de5, type: 2}
+  bgm:
+    Guid:
+      Data1: -81740235
+      Data2: 1248089862
+      Data3: -1084138318
+      Data4: -1788859585
+    Path: event:/Music/action
+  playlist: []
+  randomHeightMapPadding: 1
+  randomHeightMapThreshold: 0.5
+  localHeightMapProbability: 0.791
+  localHeightMaps:
+  - {fileID: 11400000, guid: 7e505d5d4f58c8e45ac1389c61415701, type: 2}
+  - {fileID: 11400000, guid: 3ebf6aab8b3c1434eb55acf8316c1051, type: 2}
+  bossLocalHeightMaps:
+  - {fileID: 11400000, guid: 081e35d0d895d1747878a9972dbe8f51, type: 2}
+  trapDensity: 0.2
+  trapTypes: 
+  PropDensity: 0.1
+  props:
+    keys:
+    - {fileID: 3534214679263241174, guid: 59ff16a36c75c6144b846df96fb98738, type: 3}
+    - {fileID: 3427925010446306608, guid: bf16f5ec2e61ff3498e4efddabb74d82, type: 3}
+    - {fileID: 8079868973088411977, guid: e770a5262ff9e8b4fbf705aa35162003, type: 3}
+    - {fileID: 7808812769839932073, guid: c22170c419b0852439e8ec47ee937f52, type: 3}
+    - {fileID: 1375897976896620607, guid: 0d1b14478d982ab4aa938ae2f8000290, type: 3}
+    values: 0100000001000000010000000100000001000000
+  TexturePropDensity: 1
+  TextureProps: []
+  OnLiquidPropDensity: 0.2
+  OnliquidProps: []

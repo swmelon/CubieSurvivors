@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="width: 500px; height: 550px; align-items: center; justify-content: center;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" class="button-stage" style="width: 400px; height: 400px;" />
+        <ui:Label tabindex="-1" text="Mistic Cave" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>

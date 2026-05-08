@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ff127c14697b4eb627e938f554641, type: 3}
+  m_Name: Scenario3_Sugarland
+  m_EditorClassIdentifier: 
+  scenarioName: Candy_Pop
+  icon: {fileID: 2800000, guid: bf9d80f1b42e34f42967293a38fae491, type: 3}
+  Developing: 0
+  bossAppearances: 2
+  bossInterval: 10
+  scenarioNumber: 3
+  difficultyCurveManager: {fileID: 11400000, guid: d5a8f26b1d7de71438dcb8eb825ab677, type: 2}
+  enemyDataContainer: {fileID: 11400000, guid: b8f8904568ef9f54a9c56ce4348c71a4, type: 2}
+  esdContainer: {fileID: 11400000, guid: 443ef17392ee7364fb9ee426f07577b7, type: 2}
+  themeDatas:
+  - {fileID: 11400000, guid: 9f6e281ec50795b4698b9dc0590946b2, type: 2}
+  - {fileID: 11400000, guid: ff5475ba8b136584d975aa139dc1eece, type: 2}
+  difficultyCurveDatas:
+  - {fileID: 11400000, guid: 343e69b337d29454cbed58424bb56faa, type: 2}
+  - {fileID: 11400000, guid: 2907a0ba095f8654882279f5c798ce1c, type: 2}
+  - {fileID: 11400000, guid: 0b3650f44f2229d4282b6725d4c9c1e7, type: 2}
+  themeDataChannel: {fileID: 11400000, guid: 9d06a1203898a9540bdc6de03358ffbf, type: 2}
+  ambientSound:
+    Guid:
+      Data1: -440120029
+      Data2: 1264012161
+      Data3: 342520762
+      Data4: -356944207
+    Path: event:/Music/ambient_scenario1_bird
+  sideFrameMat: {fileID: 2100000, guid: 63af694f1b1edfb4e9751c4b3b0d42fb, type: 2}
+  pillarMat: {fileID: 2100000, guid: 17f02b5bce64c56409c56c4c6f0c3ad2, type: 2}
+  sideFrameMatChannel: {fileID: 11400000, guid: 46cc4a3bb52a04341825ada2e8a9a31e, type: 2}
+  pillarMatChannel: {fileID: 11400000, guid: 5cc1ca976052b5a42ac20666965b4b00, type: 2}
+  finalBossWeapon: {fileID: 1111255496802376668, guid: d65d1113a005dd44391dc25e5eb536d9, type: 3}

@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="HomeScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/HomeScreen.uxml?fileID=9197481963319205126&amp;guid=a2334c6ea3fb0f241ae19720a01ec3b9&amp;type=3#HomeScreen" />
+    <ui:Template name="CharacterSelect" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/CharSelectionScreen.uxml?fileID=9197481963319205126&amp;guid=668278bb6bdb98649a022b418fea1f1a&amp;type=3#CharSelectionScreen" />
+    <ui:Template name="CollectionScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/CollectionScreen.uxml?fileID=9197481963319205126&amp;guid=963e22d4d38d2a444bc3846ce65ca3e1&amp;type=3#CollectionScreen" />
+    <ui:Template name="SettingsScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/SettingsScreen.uxml?fileID=9197481963319205126&amp;guid=9fbff3ba0db04ea4cae3da965ede2846&amp;type=3#SettingsScreen" />
+    <ui:Template name="PauseMenuScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/PauseMenuScreen.uxml?fileID=9197481963319205126&amp;guid=3c28c35aad26fae4aac555df6c46d279&amp;type=3#PauseMenuScreen" />
+    <ui:Template name="ShopScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/ShopScreen.uxml?fileID=9197481963319205126&amp;guid=3137ee6f3b730164084b212d113faa71&amp;type=3#ShopScreen" />
+    <ui:Template name="AccessoryCollectionScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/AccessoryCollectionScreen.uxml?fileID=9197481963319205126&amp;guid=a2c74eca66ab57944b6e90f162019f75&amp;type=3#AccessoryCollectionScreen" />
+    <ui:Template name="AccessoryInventoryScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/AccessoryInventoryScreen.uxml?fileID=9197481963319205126&amp;guid=775e571f9f0641e4c9ea89a1933dc6a2&amp;type=3#AccessoryInventoryScreen" />
+    <ui:Template name="ScoreScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/ScoreScreen.uxml?fileID=9197481963319205126&amp;guid=0142ffba08b3f594788cccf355a29c88&amp;type=3#ScoreScreen" />
+    <ui:Template name="StageSelectionScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/StageSelectionScreen.uxml?fileID=9197481963319205126&amp;guid=c470415d37f8837419938677e4336c4d&amp;type=3#StageSelectionScreen" />
+    <ui:Template name="PopupScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/PopupScreen.uxml?fileID=9197481963319205126&amp;guid=68581f48aeb288247ab1bd1e8195627d&amp;type=3#PopupScreen" />
+    <ui:Template name="ShopPopupScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/ShopPopupScreen.uxml?fileID=9197481963319205126&amp;guid=f390f4ed45616524c9dcbf4b3609408e&amp;type=3#ShopPopupScreen" />
+    <ui:Template name="CardSelectionScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/CardSelectionScreen.uxml?fileID=9197481963319205126&amp;guid=2777e9a7ca9b5424a824a597a8282bd1&amp;type=3#CardSelectionScreen" />
+    <ui:Template name="DifficultySettingsScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/DifficultySettingsScreen.uxml?fileID=9197481963319205126&amp;guid=1221dd50192936b4c8df0a4695f618d5&amp;type=3#DifficultySettingsScreen" />
+    <ui:Template name="AboutScreen" src="project://database/Assets/Local/UI%20Toolkit/UIDocument/AboutScreen.uxml?fileID=9197481963319205126&amp;guid=ebc976d42e6ff9c4ebb963f72cfc7f69&amp;type=3#AboutScreen" />
+    <Style src="project://database/Assets/Local/UI%20Toolkit/USS/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b7387224b11979345bd1dd1a944d2ffd&amp;type=3#SampleStyle" />
+    <ui:Instance template="HomeScreen" name="HomeScreen" style="width: 100%; height: 100%; display: none; position: absolute;" />
+    <ui:Instance template="CharacterSelect" name="CharacterSelectionScreen" style="display: none; width: 100%; height: 100%; position: relative;" />
+    <ui:Instance template="CollectionScreen" name="CollectionScreen" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="SettingsScreen" name="SettingsScreen" style="display: none; position: absolute; width: 100%; height: 100%;" />
+    <ui:Instance template="PauseMenuScreen" name="PauseMenuScreen" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="ShopScreen" name="ShopScreen" style="width: 100%; height: 100%; display: none;" />
+    <ui:Instance template="AccessoryCollectionScreen" name="AccessoryCollectionScreen" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="AccessoryInventoryScreen" name="AccessoryInventoryScreen" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="ScoreScreen" name="ScoreScreen" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="StageSelectionScreen" name="StageSelectionScreen" style="width: 100%; height: 100%; display: none;" />
+    <ui:Instance template="PopupScreen" name="PopupScreen" style="display: none; height: 100%; width: 100%; position: absolute;" />
+    <ui:Instance template="ShopPopupScreen" name="ShopPopupScreen" style="display: none; width: 100%; height: 100%; position: absolute;" />
+    <ui:Instance template="CardSelectionScreen" name="CardSelectionScreen" style="display: none; position: absolute; width: 100%; height: 100%;" />
+    <ui:Instance template="DifficultySettingsScreen" name="DifficultySettingsScreen" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="AboutScreen" name="AboutScreen" style="display: none; width: 100%; height: 100%;" />
+</ui:UXML>

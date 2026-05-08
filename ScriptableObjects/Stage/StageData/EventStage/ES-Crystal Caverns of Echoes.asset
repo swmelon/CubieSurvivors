@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce8094ed3d043698780c37c875641e4, type: 3}
+  m_Name: ES-Crystal Caverns of Echoes
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8710906547722253682, guid: 08f85092575ea824eaa8a9c09ef57278, type: 3}
+  index: -1
+  icon: {fileID: 2800000, guid: c71838e73b1674d4bb76a5eeee0ab61c, type: 3}
+  lightData: {fileID: 0}

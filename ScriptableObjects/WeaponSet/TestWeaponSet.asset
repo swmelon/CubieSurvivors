@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01e96ab781d4a019a2c7841d0197c96, type: 3}
+  m_Name: TestWeaponSet
+  m_EditorClassIdentifier: 
+  weaponPrefabs:
+  - {fileID: 1264759681055624781, guid: 87391f748c7e31f408ca8142ee85c6f9, type: 3}
+  - {fileID: 1111255496802376668, guid: d65d1113a005dd44391dc25e5eb536d9, type: 3}
+  warehousePosition: {x: 0, y: 100, z: 0}
+  returnWeaponChannel: {fileID: 11400000, guid: d45ee82525006b44b850aa8ace928532, type: 2}
+  saveLoadManager: {fileID: 11400000, guid: 45a55fc874e3d2a4eaa74e9b1b63e307, type: 2}
+  bossWeaponNameForDebug: 

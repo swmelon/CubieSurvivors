@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71ddddcc86147768671655dacfb3636, type: 3}
+  m_Name: Theme_Swamp
+  m_EditorClassIdentifier: 
+  nonCombatTheme: 0
+  MainStageData: {fileID: 11400000, guid: 99d69ed740972434585b329de3d7e458, type: 2}
+  StageAdapterData: {fileID: 11400000, guid: 2c928f1609fe1364397ebb4bc8ecd93b, type: 2}
+  FloorBlockSet: {fileID: 11400000, guid: 52b808b73981ee14cbc92a33cc16a0b2, type: 2}
+  liquidType: 3
+  ambientData: {fileID: 11400000, guid: 909f33f106b438f4b92e6fdcd556b5dc, type: 2}
+  ambientDataChannel: {fileID: 11400000, guid: ae9721f08d89c2440a68dcd4e4b47de5, type: 2}
+  bgm:
+    Guid:
+      Data1: -81914090
+      Data2: 1271059562
+      Data3: 1436489647
+      Data4: -787034432
+    Path: event:/Music/p10_swamp
+  playlist: []
+  randomHeightMapPadding: 4
+  randomHeightMapThreshold: 0.5
+  localHeightMapProbability: 0
+  localHeightMaps: []
+  bossLocalHeightMaps: []
+  trapDensity: 0.2
+  trapTypes: 
+  PropDensity: 0.4
+  props:
+    keys:
+    - {fileID: 7808812769839932073, guid: 47344bbaaf374b04696691ba96eee072, type: 3}
+    - {fileID: 1175455237908097157, guid: a321941cae32ac949b4765579ebffe31, type: 3}
+    - {fileID: 8316898434195807924, guid: f53ae4121ac0cf54baf8968c82e8db68, type: 3}
+    - {fileID: 8465307001181903979, guid: 09c7701e647347d46913314aae48ef26, type: 3}
+    values: 01000000050000000300000001000000
+  TexturePropDensity: 1
+  TextureProps:
+  - {fileID: 2747410861154895487, guid: 23f5df9b3527dda44a584abb9faaa983, type: 3}
+  - {fileID: 5413286061799530317, guid: 5717e69607e4e624f826c38fb48a5f67, type: 3}
+  - {fileID: 3118007777522798632, guid: 37429bd9f04e72e4b87cc7d02ba6e0c0, type: 3}
+  - {fileID: 2816095879853783528, guid: f45bca6d6a2d9af458b97b43d8a39014, type: 3}
+  OnLiquidPropDensity: 0.2
+  OnliquidProps:
+  - {fileID: 3921255867408600361, guid: 7030002c74ff04540ac7bc56ac52b5c7, type: 3}

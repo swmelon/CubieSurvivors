@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08143c9af2914720a7683e8f84b9ce32, type: 3}
+  m_Name: Decoy
+  m_EditorClassIdentifier: 
+  charIndex: 3
+  charName: Lure
+  charIcon: {fileID: 21300000, guid: b745ca6827334444ead8160eda8b52ee, type: 3}
+  charPrefab: {fileID: 487111847410804616, guid: 4537b493ded307640a43a768f4d477e7, type: 3}
+  charDescription: DES_DECOY
+  speed: 4
+  maxHealth: 150
+  attack: 0
+  defense: 0
+  luck: 0
+  damageCalculator: {fileID: 11400000, guid: 4eb549f8f25d0de41bb225e018110fbe, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b263f2159b4d3d8750e60a7dd0507b, type: 3}
+  m_Name: AuraniumSpawner
+  m_EditorClassIdentifier: 
+  prefabList:
+  - {fileID: 3011974472472758617, guid: 899d3901989a8cb4e8fc6c2823bbf29e, type: 3}
+  poolSize: 2
+  preInstantiateCount: 0
+  setPoolSeparately: 0
+  poolSizes: 
+  preInstantiateCounts: 
+  checkLifeSpan: 0
+  checkReleaseEvent: 0
+  spawnedObjectLifeSpan: 1
+  probabilities:
+  - 1

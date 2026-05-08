@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28bf07ed7535e141ac836d10c4127bc, type: 3}
+  m_Name: StageCreator
+  m_EditorClassIdentifier: 
+  stagePrefab: {fileID: 6244982995404518283, guid: a6b18c05e2eaf45408a02c799149d06e, type: 3}
+  serializedStageSetters:
+  - {fileID: 11400000, guid: 5b9b254dc510f5e459541ca8b0f4be2c, type: 2}
+  - {fileID: 11400000, guid: 59112183f9b0569459abcf3d6aeb610e, type: 2}
+  - {fileID: 11400000, guid: b5057afd6b74af94a91e2d7252e0cadd, type: 2}
+  serializedBossStageSetters:
+  - {fileID: 11400000, guid: 20380334da548c345932e5df3cca6f2f, type: 2}
+  - {fileID: 11400000, guid: 59112183f9b0569459abcf3d6aeb610e, type: 2}

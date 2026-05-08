@@ -1,0 +1,15 @@
+.pink {
+    background-color: rgba(255, 198, 239, 0.25);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(188, 188, 188);
+    border-right-color: rgb(188, 188, 188);
+    border-top-color: rgb(188, 188, 188);
+    border-bottom-color: rgb(188, 188, 188);
+}

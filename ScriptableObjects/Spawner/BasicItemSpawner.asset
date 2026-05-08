@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85c0d98d690746f5876643215a4af1b5, type: 3}
+  m_Name: BasicItemSpawner
+  m_EditorClassIdentifier: 
+  prefabList:
+  - {fileID: 8803039297681192904, guid: 569f073cd13cdcc4f95840feec139d93, type: 3}
+  - {fileID: 4099912685490671612, guid: 734378aa7b1d47e4ea43128bf23a8188, type: 3}
+  - {fileID: 5747433147235275464, guid: 217ae766942af7c4898cdb7996def32b, type: 3}
+  poolSize: 10
+  preInstantiateCount: 2
+  setPoolSeparately: 0
+  poolSizes: 
+  preInstantiateCounts: 
+  checkLifeSpan: 1
+  checkReleaseEvent: 0
+  spawnedObjectLifeSpan: 30
+  disappearingEffectSpawner: {fileID: 11400000, guid: 2f6f0384321daba40b8bb2d7942936a2, type: 2}

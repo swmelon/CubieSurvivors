@@ -1,0 +1,164 @@
+#JoystickSlideToggle Label {
+    display: none;
+}
+
+#VibrationSlideToggle Label {
+    display: none;
+}
+
+.slide-toggle__input {
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 25px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: visible;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-color: var(--unity-colors-slider_thumb-border);
+    border-top-color: var(--unity-colors-slider_thumb-border);
+    border-bottom-color: var(--unity-colors-slider_thumb-border);
+    max-height: 16px;
+    border-left-color: var(--unity-colors-slider_thumb-border);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    width: 100%;
+    height: 100%;
+    scale: 5 5;
+    translate: -80px 0;
+    align-items: auto;
+    left: 80px;
+}
+
+.slide-toggle__input-knob {
+    height: 16px;
+    width: 16px;
+    background-color: rgb(130, 130, 130);
+    position: absolute;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition-property: translate, background-color;
+    transition-duration: 0.5s, 0.5s;
+    translate: -1px 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: var(--unity-colors-slider_thumb-border);
+    border-right-color: var(--unity-colors-slider_thumb-border);
+    border-top-color: var(--unity-colors-slider_thumb-border);
+    border-bottom-color: var(--unity-colors-slider_thumb-border);
+    align-self: auto;
+    top: -1px;
+    background-image: url("project://database/Assets/ThirdParty/SimpleSpinner/Spinners/4.png?fileID=2800000&guid=c0f08c6961a8b164982cf40cf6043a74&type=3#4");
+}
+
+.slide-toggle__input--checked {
+    background-color: rgb(6, 255, 2);
+}
+
+.slide-toggle__input--checked > .slide-toggle__input-knob {
+    translate: 8px 0;
+}
+
+.slide-toggle:focus .slide-toggle__input-knob {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: var(--unity-colors-input_field-border-focus);
+    border-right-color: var(--unity-colors-input_field-border-focus);
+    border-top-color: var(--unity-colors-input_field-border-focus);
+    border-bottom-color: var(--unity-colors-input_field-border-focus);
+}
+
+.slide-toggle-alt__input {
+    background-color: rgba(0, 179, 255, 0.5);
+    max-width: 25px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: visible;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-color: var(--unity-colors-slider_thumb-border);
+    border-top-color: var(--unity-colors-slider_thumb-border);
+    border-bottom-color: var(--unity-colors-slider_thumb-border);
+    max-height: 16px;
+    border-left-color: var(--unity-colors-slider_thumb-border);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    width: 100%;
+    height: 100%;
+    scale: 5 5;
+    translate: -80px 0;
+    align-items: auto;
+    left: 80px;
+}
+
+.slide-toggle-alt__input-knob {
+    height: 16px;
+    width: 16px;
+    background-color: rgb(130, 130, 130);
+    position: absolute;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition-property: translate, background-color;
+    transition-duration: 0.5s, 0.5s;
+    translate: -1px 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: var(--unity-colors-slider_thumb-border);
+    border-right-color: var(--unity-colors-slider_thumb-border);
+    border-top-color: var(--unity-colors-slider_thumb-border);
+    border-bottom-color: var(--unity-colors-slider_thumb-border);
+    align-self: auto;
+    top: -1px;
+    background-image: url("project://database/Assets/ThirdParty/SimpleSpinner/Spinners/4.png?fileID=2800000&guid=c0f08c6961a8b164982cf40cf6043a74&type=3#4");
+}
+
+.slide-toggle-alt__input--checked {
+    background-color: rgba(255, 2, 7, 0.5);
+}
+
+.slide-toggle-alt__input--checked > .slide-toggle-alt__input-knob {
+    translate: 8px 0;
+}
+
+.slide-toggle-alt:focus .slide-toggle-alt__input-knob {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: var(--unity-colors-input_field-border-focus);
+    border-right-color: var(--unity-colors-input_field-border-focus);
+    border-top-color: var(--unity-colors-input_field-border-focus);
+    border-bottom-color: var(--unity-colors-input_field-border-focus);
+}
+
+.card-stat-label {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(237, 85, 84);
+    font-size: 44px;
+    display: flex;
+    width: 29%;
+    -unity-text-align: upper-left;
+    left: 0;
+}
+
+.card-stat-row {
+    padding-right: 17%;
+    padding-left: 12%;
+}

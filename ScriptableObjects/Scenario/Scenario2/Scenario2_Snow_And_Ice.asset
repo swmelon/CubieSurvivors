@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ff127c14697b4eb627e938f554641, type: 3}
+  m_Name: Scenario2_Snow_And_Ice
+  m_EditorClassIdentifier: 
+  scenarioName: Snow_And_Ice
+  icon: {fileID: 2800000, guid: f8887d0078f85534f904c27bd670d9fb, type: 3}
+  Developing: 0
+  bossAppearances: 3
+  bossInterval: 10
+  scenarioNumber: 2
+  difficultyCurveManager: {fileID: 11400000, guid: d5a8f26b1d7de71438dcb8eb825ab677, type: 2}
+  enemyDataContainer: {fileID: 11400000, guid: eaaa3eb992e96b640b6919bfa910c941, type: 2}
+  esdContainer: {fileID: 11400000, guid: 79e2031f061166949a69cc865dbe835a, type: 2}
+  themeDatas:
+  - {fileID: 11400000, guid: c57182d5d38dded4a93eb01f30afcb92, type: 2}
+  - {fileID: 11400000, guid: 4a7e1a5d8496c80489f9be8e10059382, type: 2}
+  - {fileID: 11400000, guid: f1fb5999a99bf26419fa5aa21e1d6c23, type: 2}
+  difficultyCurveDatas:
+  - {fileID: 11400000, guid: 74450e357015cbf4194537bba766f554, type: 2}
+  - {fileID: 11400000, guid: d87f5e5c77a02a843895fe9ec378b8d1, type: 2}
+  - {fileID: 11400000, guid: 71c45db437ba992458f978206aff3409, type: 2}
+  themeDataChannel: {fileID: 11400000, guid: 9d06a1203898a9540bdc6de03358ffbf, type: 2}
+  ambientSound:
+    Guid:
+      Data1: -788946460
+      Data2: 1310817722
+      Data3: -123394680
+      Data4: 2022669785
+    Path: event:/Music/ambient_scenario2_snowwind
+  sideFrameMat: {fileID: 2100000, guid: df30c6ec790d142479613e577e86e957, type: 2}
+  pillarMat: {fileID: 2100000, guid: 17f02b5bce64c56409c56c4c6f0c3ad2, type: 2}
+  sideFrameMatChannel: {fileID: 11400000, guid: 46cc4a3bb52a04341825ada2e8a9a31e, type: 2}
+  pillarMatChannel: {fileID: 11400000, guid: 5cc1ca976052b5a42ac20666965b4b00, type: 2}

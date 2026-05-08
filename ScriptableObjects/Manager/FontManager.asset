@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0c88b6b4a69044c8f5f0affcc4a869, type: 3}
+  m_Name: FontManager
+  m_EditorClassIdentifier: 
+  fontMapUI:
+  - language: 10
+    fontAsset: {fileID: 11400000, guid: 6a51d19839e1583429dcb7a35e53e952, type: 2}
+  - language: 23
+    fontAsset: {fileID: 11400000, guid: bc6c6ff1c184b0548a7842a3121f57a3, type: 2}
+  - language: 15
+    fontAsset: {fileID: 11400000, guid: 5aba413a4558da0438cf323b16081a6f, type: 2}
+  - language: 14
+    fontAsset: {fileID: 11400000, guid: 5aba413a4558da0438cf323b16081a6f, type: 2}
+  - language: 21
+    fontAsset: {fileID: 11400000, guid: 5aba413a4558da0438cf323b16081a6f, type: 2}
+  - language: 22
+    fontAsset: {fileID: 11400000, guid: 5aba413a4558da0438cf323b16081a6f, type: 2}
+  - language: 28
+    fontAsset: {fileID: 11400000, guid: 5aba413a4558da0438cf323b16081a6f, type: 2}
+  - language: 34
+    fontAsset: {fileID: 11400000, guid: 5aba413a4558da0438cf323b16081a6f, type: 2}
+  - language: 41
+    fontAsset: {fileID: 11400000, guid: 6a51d19839e1583429dcb7a35e53e952, type: 2}
+  - language: 40
+    fontAsset: {fileID: 11400000, guid: 6a51d19839e1583429dcb7a35e53e952, type: 2}
+  - language: 30
+    fontAsset: {fileID: 11400000, guid: 724d11dde44c871459c0ee7716d4548f, type: 2}
+  - language: 37
+    fontAsset: {fileID: 11400000, guid: 669735f59bc0ce746912cd961bbb9726, type: 2}
+  - language: 39
+    fontAsset: {fileID: 11400000, guid: 669735f59bc0ce746912cd961bbb9726, type: 2}
+  - language: 42
+    fontAsset: {fileID: 11400000, guid: 519513b35cc7ef74bb8bdc5ee777013b, type: 2}
+  - language: 20
+    fontAsset: {fileID: 11400000, guid: 5aba413a4558da0438cf323b16081a6f, type: 2}
+  TMPfontMapUI:
+  - language: 30
+    fontAsset: {fileID: 11400000, guid: 7e296ad0dbdb37741998071d3acef111, type: 2}
+  - language: 23
+    fontAsset: {fileID: 11400000, guid: 59fb6bd8fbd1b9f409ee03e955cb6e82, type: 2}
+  - language: 10
+    fontAsset: {fileID: 11400000, guid: c1482dbce654844b9ba1c753cbea5d80, type: 2}
+  - language: 15
+    fontAsset: {fileID: 11400000, guid: d732902b1b57a8e439f4cc7f74692dc9, type: 2}
+  - language: 14
+    fontAsset: {fileID: 11400000, guid: d732902b1b57a8e439f4cc7f74692dc9, type: 2}
+  - language: 20
+    fontAsset: {fileID: 11400000, guid: d732902b1b57a8e439f4cc7f74692dc9, type: 2}
+  - language: 21
+    fontAsset: {fileID: 11400000, guid: d732902b1b57a8e439f4cc7f74692dc9, type: 2}
+  - language: 22
+    fontAsset: {fileID: 11400000, guid: d732902b1b57a8e439f4cc7f74692dc9, type: 2}
+  - language: 28
+    fontAsset: {fileID: 11400000, guid: d732902b1b57a8e439f4cc7f74692dc9, type: 2}
+  - language: 34
+    fontAsset: {fileID: 11400000, guid: d732902b1b57a8e439f4cc7f74692dc9, type: 2}
+  - language: 40
+    fontAsset: {fileID: 11400000, guid: 3854aa6bddd06ea4fb0ca9ef23b7ffc5, type: 2}
+  - language: 41
+    fontAsset: {fileID: 11400000, guid: 3d9ee51b126c4144cbd53ec8aa88c3e6, type: 2}
+  - language: 42
+    fontAsset: {fileID: 11400000, guid: 32334ac320a01bf4dbd762f10d84982a, type: 2}
+  - language: 37
+    fontAsset: {fileID: 11400000, guid: 40ea752301ab1684282b5bbdb15ad789, type: 2}
+  - language: 39
+    fontAsset: {fileID: 11400000, guid: 40ea752301ab1684282b5bbdb15ad789, type: 2}
+  fontMapCard:
+  - language: 10
+    fontAsset: {fileID: 11400000, guid: b007a8815be190347a4000dad76905c6, type: 2}
+  - language: 23
+    fontAsset: {fileID: 11400000, guid: b743301c4a7bdec4d9c303f0e759fc7e, type: 2}
+  - language: 15
+    fontAsset: {fileID: 11400000, guid: 00694baab30fdcf4ca389201d5179397, type: 2}
+  - language: 14
+    fontAsset: {fileID: 11400000, guid: 00694baab30fdcf4ca389201d5179397, type: 2}
+  - language: 21
+    fontAsset: {fileID: 11400000, guid: 00694baab30fdcf4ca389201d5179397, type: 2}
+  - language: 22
+    fontAsset: {fileID: 11400000, guid: 84071e54100365645a624172e7c3dafb, type: 2}
+  - language: 28
+    fontAsset: {fileID: 11400000, guid: 00694baab30fdcf4ca389201d5179397, type: 2}
+  - language: 34
+    fontAsset: {fileID: 11400000, guid: 00694baab30fdcf4ca389201d5179397, type: 2}
+  - language: 41
+    fontAsset: {fileID: 11400000, guid: 91b1426350f406c47bde48040c04bcd1, type: 2}
+  - language: 40
+    fontAsset: {fileID: 11400000, guid: 91b1426350f406c47bde48040c04bcd1, type: 2}
+  - language: 30
+    fontAsset: {fileID: 11400000, guid: 4de7e432183b1f140b6b563e2f506526, type: 2}
+  - language: 37
+    fontAsset: {fileID: 11400000, guid: 4de7e432183b1f140b6b563e2f506526, type: 2}
+  - language: 39
+    fontAsset: {fileID: 11400000, guid: 81c7e1ab9f3c11a43b503c01dde9790f, type: 2}
+  - language: 42
+    fontAsset: {fileID: 11400000, guid: b007a8815be190347a4000dad76905c6, type: 2}
+  - language: 20
+    fontAsset: {fileID: 11400000, guid: b007a8815be190347a4000dad76905c6, type: 2}
+  defaultFontUI: {fileID: 11400000, guid: 6a51d19839e1583429dcb7a35e53e952, type: 2}
+  defaultFontUITMP: {fileID: 11400000, guid: c1482dbce654844b9ba1c753cbea5d80, type: 2}
+  defaultFontCard: {fileID: 11400000, guid: b007a8815be190347a4000dad76905c6, type: 2}

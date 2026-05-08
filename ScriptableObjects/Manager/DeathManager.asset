@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00be5e9da7514a05be059a0a001ec5dd, type: 3}
+  m_Name: DeathManager
+  m_EditorClassIdentifier: 
+  expSpawner: {fileID: 11400000, guid: fbca8d9371768fc498233a3053bfc576, type: 2}
+  coinSpawner: {fileID: 11400000, guid: 9baee857d17e9fd4da8d7ec8081c5725, type: 2}
+  defaultCoinSpawnProbability: 0.1
+  auraniumSpawner: {fileID: 11400000, guid: 009981c39e949834aa5ee8325311f7a1, type: 2}
+  defaultAurainumSpawnProbability: 0.1
+  explosionEffectSpawner: {fileID: 11400000, guid: 4ffdc2107574cd04daf8c78ea662f39d, type: 2}
+  itemBoxCrashSpawner: {fileID: 11400000, guid: b3e98f4ea15fafc40b69a94648df4d28, type: 2}
+  gameScenarioManager: {fileID: 11400000, guid: a8282cecf0475934da0735b17c4ee9aa, type: 2}
+  bossCountChannel: {fileID: 11400000, guid: 3569b2f4f2407e840a2ce1984c3addc8, type: 2}
+  restartGameEventChannel: {fileID: 11400000, guid: 3c2ed45a50858c141b452d403dfd2921, type: 2}

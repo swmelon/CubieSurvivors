@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb21485468cd7342a08dd82524699a8, type: 3}
+  m_Name: 3_Sugarland_ESDC
+  m_EditorClassIdentifier: 
+  datas:
+  - {fileID: 1216080769592324968, guid: 649bcf039a784434b86e6008aa52a59e, type: 3}
+  - {fileID: 3964494360754576576, guid: 65425eb4c99f5654ab6b6b7e6ea9ad00, type: 3}
+  - {fileID: 4116190054120733333, guid: d34bdef13959c0649be2037f740aa0d3, type: 3}

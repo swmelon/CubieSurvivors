@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71ddddcc86147768671655dacfb3636, type: 3}
+  m_Name: Theme_Forest
+  m_EditorClassIdentifier: 
+  nonCombatTheme: 0
+  MainStageData: {fileID: 11400000, guid: 99d69ed740972434585b329de3d7e458, type: 2}
+  StageAdapterData: {fileID: 11400000, guid: 2c928f1609fe1364397ebb4bc8ecd93b, type: 2}
+  FloorBlockSet: {fileID: 11400000, guid: ad0588dfd67614b42ba292127df3b82a, type: 2}
+  liquidType: 0
+  ambientData: {fileID: 11400000, guid: bcae7985d019c34459781b9e25d13c66, type: 2}
+  ambientDataChannel: {fileID: 11400000, guid: ae9721f08d89c2440a68dcd4e4b47de5, type: 2}
+  bgm:
+    Guid:
+      Data1: -1779782410
+      Data2: 1134403375
+      Data3: 101614481
+      Data4: 306019176
+    Path: event:/Music/the_brightness_of_distant_stars
+  playlist: []
+  randomHeightMapPadding: 4
+  randomHeightMapThreshold: 0.5
+  localHeightMapProbability: 0
+  localHeightMaps: []
+  bossLocalHeightMaps: []
+  trapDensity: 0.5
+  trapTypes: 00000000
+  PropDensity: 0.2
+  props:
+    keys:
+    - {fileID: 7808812769839932073, guid: 47344bbaaf374b04696691ba96eee072, type: 3}
+    - {fileID: 8316898434195807924, guid: f53ae4121ac0cf54baf8968c82e8db68, type: 3}
+    - {fileID: 6277941606561850662, guid: 5467d521aaa076b4282d0af0a2969106, type: 3}
+    values: 010000000400000002000000
+  TexturePropDensity: 0.2
+  TextureProps: []
+  OnLiquidPropDensity: 0.2
+  OnliquidProps: []

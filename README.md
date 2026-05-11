@@ -9,11 +9,10 @@
 
 | | |
 |---|---|
-| ![늪지](Screenshots/늪지.png) | ![보스전](Screenshots/보스전2.png) |
-| ![무기획득](Screenshots/무기획득.png) | ![수상한숲](Screenshots/수상한숲.png) |
-| ![아이템선반](Screenshots/아이템선반.png) | ![아이템융합](Screenshots/아이템융합.png) |
-| ![영구업그레이드](Screenshots/영구능력업그레이드.png) | |
-
+| ![swamp](Screenshots/swamp.png) | ![boss](Screenshots/boss2.png) |
+| ![get_weapon](Screenshots/get_weapon.png) | ![forest](Screenshots/forest1.png) |
+| ![item_shelf](Screenshots/item_shelf.png) | ![item_fusion](Screenshots/item_fusion.png) |
+| ![upgrade](Screenshots/upgrade_permanent.png) | |
 
 ---
 

@@ -9,10 +9,10 @@
 
 | | |
 |---|---|
-| ![swamp](Screenshots/swamp.png) | ![boss](Screenshots/boss2.png) |
-| ![get_weapon](Screenshots/get_weapon.png) | ![forest](Screenshots/forest1.png) |
-| ![item_shelf](Screenshots/item_shelf.png) | ![item_fusion](Screenshots/item_fusion.png) |
-| ![upgrade](Screenshots/upgrade_permanent.png) | |
+| ![swamp](ScreenShots/swamp.png) | ![boss](ScreenShots/boss2.png) |
+| ![get_weapon](ScreenShots/get_weapon.png) | ![forest](ScreenShots/forest1.png) |
+| ![item_shelf](ScreenShots/item_shelf.png) | ![item_fusion](ScreenShots/item_fusion.png) |
+| ![upgrade](ScreenShots/upgrade_permanent.png) | |
 
 ---
 

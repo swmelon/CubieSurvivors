@@ -82,4 +82,4 @@
 
 ## 기술 스택
 
-`Unity 6` `C#` `FMOD` `Android`
+`Unity 6` `C#` `FMOD` `UI Toolkit` `Android`

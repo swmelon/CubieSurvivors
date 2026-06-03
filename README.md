@@ -8,10 +8,11 @@
 ## 게임플레이
 
 ![게임플레이](ScreenShots/_fight3.gif)
-![게임플레이](ScreenShots/_interation_fire.gif)
-![게임플레이](ScreenShots/_boss_fight4.gif)
+
+
 | | |
 |---|---|
+| ![get_weapon](ScreenShots/_interation_fire.gif) | ![item_shelf](ScreenShots/_boss_fight4.gif)) |
 | ![get_weapon](ScreenShots/_reward.gif) | ![item_shelf](ScreenShots/_inventory.gif) |
 | ![upgrade](ScreenShots/_p_upgrade.gif) | ![item_upgrade](ScreenShots/_buy.gif) || 
 

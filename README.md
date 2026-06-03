@@ -6,15 +6,18 @@
 
 
 ## 게임플레이
+---
 
 ![게임플레이](ScreenShots/_fight3.gif)
 
+---
 
 | | |
 |---|---|
-| ![get_weapon](ScreenShots/_interation_fire.gif) | ![item_shelf](ScreenShots/_boss_fight4.gif)) |
-| ![get_weapon](ScreenShots/_reward.gif) | ![item_shelf](ScreenShots/_inventory.gif) |
-| ![upgrade](ScreenShots/_p_upgrade.gif) | ![item_upgrade](ScreenShots/_buy.gif) || 
+| ![swamp](ScreenShots/swamp.png) | ![forest](ScreenShots/forest1.png) |
+| ![boss](ScreenShots/boss4.png) | ![shop](ScreenShots/Shop.png) |
+| ![get_weapon](ScreenShots/get_weapon.png) | ![item_shelf](ScreenShots/item_shelf.png) |
+| ![upgrade](ScreenShots/upgrade_permanent.png) | ![item_upgrade](ScreenShots/item_upgrade.png) || 
 
 ---
 

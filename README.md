@@ -5,7 +5,9 @@
 [![Google Play](https://img.shields.io/badge/Google_Play-Download-green)](https://play.google.com/store/apps/details?id=com.HWDP.CubieSurvival)
 
 
-## 스크린샷
+## 게임플레이
+
+![게임플레이](ScreenShots/_fight3.gif)
 
 | | |
 |---|---|

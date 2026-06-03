@@ -12,8 +12,8 @@
 ![게임플레이](ScreenShots/_boss_fight4.gif)
 | | |
 |---|---|
-| ![get_weapon](ScreenShots/get_weapon.png) | ![item_shelf](ScreenShots/item_shelf.png) |
-| ![upgrade](ScreenShots/upgrade_permanent.png) | ![item_upgrade](ScreenShots/item_upgrade.png) || 
+| ![get_weapon](ScreenShots/_reward.gif) | ![item_shelf](ScreenShots/_inventory.gif) |
+| ![upgrade](ScreenShots/_p_upgrade.png) | ![item_upgrade](ScreenShots/_buy.png) || 
 
 ---
 

@@ -8,7 +8,7 @@
 ## 게임플레이
 
 ![게임플레이](ScreenShots/_fight3.gif)
-![게임플레이](ScreenShots/_fight4.gif)
+![게임플레이](ScreenShots/_interation_fire.gif)
 ![게임플레이](ScreenShots/_boss_fight4.gif)
 | | |
 |---|---|

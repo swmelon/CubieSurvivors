@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | ![get_weapon](ScreenShots/_reward.gif) | ![item_shelf](ScreenShots/_inventory.gif) |
-| ![upgrade](ScreenShots/_p_upgrade.png) | ![item_upgrade](ScreenShots/_buy.png) || 
+| ![upgrade](ScreenShots/_p_upgrade.gif) | ![item_upgrade](ScreenShots/_buy.gif) || 
 
 ---
 
